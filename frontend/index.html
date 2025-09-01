@@ -5,25 +5,89 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>RailRadar Dashboard</title>
   <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
 <body>
-  <h1>🚆 RailRadar – Train Delay & Prediction</h1>
-  <table>
-    <thead>
-      <tr>
-        <th>Train No</th>
-        <th>Station</th>
-        <th>Route</th>
-        <th>Date</th>
-        <th>Scheduled Time</th>
-        <th>Actual Time</th>
-        <th>Delay (min)</th>
-        <th>Reason</th>
-      </tr>
-    </thead>
-    <tbody></tbody>
-  </table>
+  <header>
+    <h1>🚆 RailRadar Dashboard</h1>
+    <div class="updated-time" id="updatedTime"></div>
+  </header>
+  <main>
+    <section class="summary-cards">
+      <div class="card" id="totalDelays">
+        <span>⚠️</span>
+        <div>
+          <h2 id="totalDelaysValue">0</h2>
+          <p>Total Delays</p>
+        </div>
+      </div>
+      <div class="card" id="avgDelay">
+        <span>⏰</span>
+        <div>
+          <h2 id="avgDelayValue">0</h2>
+          <p>Avg Delay (min)</p>
+        </div>
+      </div>
+      <div class="card" id="affectedTrains">
+        <span>🚉</span>
+        <div>
+          <h2 id="affectedTrainsValue">0</h2>
+          <p>Affected Trains</p>
+        </div>
+      </div>
+      <div class="card" id="affectedStations">
+        <span>📍</span>
+        <div>
+          <h2 id="affectedStationsValue">0</h2>
+          <p>Affected Stations</p>
+        </div>
+      </div>
+    </section>
+    <section class="filters">
+      <input type="text" id="trainNameFilter" placeholder="Train Name">
+      <input type="text" id="delayReasonFilter" placeholder="Delay Reason">
+      <input type="text" id="stationFilter" placeholder="Station/Location">
+      <button id="applyFilters">Apply Filters</button>
+      <button id="clearFilters">Clear All</button>
+    </section>
+    <section class="charts">
+      <div class="chart-card">
+        <h3>Delay Reasons Distribution</h3>
+        <canvas id="reasonChart"></canvas>
+      </div>
+      <div class="chart-card">
+        <h3>Daily Delay Trends</h3>
+        <canvas id="trendChart"></canvas>
+      </div>
+    </section>
+    <section class="table-section">
+      <div class="table-header">
+        <h3>Recent Delays</h3>
+        <button id="exportCSV">Export CSV</button>
+      </div>
+      <div class="table-container">
+        <table>
+          <thead>
+            <tr>
+              <th>Train</th>
+              <th>Station</th>
+              <th>Date</th>
+              <th>Scheduled</th>
+              <th>Actual</th>
+              <th>Delay</th>
+              <th>Reason</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+        <div id="loading" class="loading">Loading data...</div>
+        <div id="error" class="error"></div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <p>RailRadar &copy; 2025 | Built for train delay analysis & accident prediction</p>
+  </footer>
   <script src="script.js"></script>
 </body>
 </html>
- 
