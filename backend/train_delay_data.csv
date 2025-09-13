@@ -1,7 +1,1001 @@
 Train_No,Station,Route,Date,Scheduled_Time,Actual_Time,Delay_Minutes,Reason
-12345,Chennai,Chennai-Delhi,2025-08-01,10:00,10:30,30,Signal Failure
-54321,Delhi,Delhi-Chennai,2025-08-01,15:00,15:50,50,Weather
-67890,Mumbai,Mumbai-Kolkata,2025-08-02,09:00,09:20,20,Technical Issue
-98765,Kolkata,Kolkata-Mumbai,2025-08-02,14:00,14:45,45,Track Maintenance
-24680,Bangalore,Bangalore-Hyderabad,2025-08-03,11:00,11:05,5,On Time
- 
+34638,Goa,Goa-Ahmedabad,2025-09-15,12:45,14:45,120,Signal Failure
+10832,Patna,Patna-Bhopal,2025-08-10,09:15,09:45,30,Weather
+78545,Hyderabad,Hyderabad-Pune,2025-09-14,23:45,00:15,30,Crew Unavailability
+80848,Goa,Goa-Trivandrum,2025-08-16,17:30,17:30,0,On Time
+19286,Mumbai,Mumbai-Goa,2025-07-08,14:15,14:30,15,Weather
+64393,Nagpur,Nagpur-Lucknow,2025-07-17,18:45,18:50,5,Crew Unavailability
+54398,Bhopal,Bhopal-Lucknow,2025-08-31,02:00,05:00,180,Weather
+56198,Goa,Goa-Coimbatore,2025-07-10,19:15,19:25,10,Track Maintenance
+19805,Ahmedabad,Ahmedabad-Patna,2025-08-05,09:30,09:45,15,Crew Unavailability
+87443,Ahmedabad,Ahmedabad-Varanasi,2025-07-05,18:30,18:40,10,Technical Issue
+41195,Ahmedabad,Ahmedabad-Chandigarh,2025-07-31,03:15,03:45,30,Crew Unavailability
+55908,Chennai,Chennai-Delhi,2025-07-16,15:30,15:45,15,Technical Issue
+20605,Goa,Goa-Mumbai,2025-07-06,12:00,12:30,30,Operational Delay
+23494,Surat,Surat-Bangalore,2025-08-23,15:15,15:35,20,Crew Unavailability
+94809,Trivandrum,Trivandrum-Jaipur,2025-08-18,01:15,02:45,90,Signal Failure
+99375,Nagpur,Nagpur-Pune,2025-07-26,08:30,08:35,5,Track Maintenance
+37118,Madurai,Madurai-Mumbai,2025-07-12,19:30,19:40,10,Technical Issue
+98046,Varanasi,Varanasi-Lucknow,2025-07-19,21:00,21:45,45,Signal Failure
+27301,Chennai,Chennai-Goa,2025-09-11,10:00,10:00,0,On Time
+34622,Chandigarh,Chandigarh-Goa,2025-08-02,12:15,14:45,150,Weather
+70566,Chandigarh,Chandigarh-Bangalore,2025-07-08,18:00,18:45,45,Track Maintenance
+89460,Ahmedabad,Ahmedabad-Pune,2025-07-15,08:15,10:45,150,Track Maintenance
+11128,Pune,Pune-Kolkata,2025-08-18,22:00,22:05,5,Technical Issue
+40874,Kolkata,Kolkata-Bhopal,2025-07-03,01:30,02:15,45,Weather
+15506,Goa,Goa-Varanasi,2025-07-04,16:00,16:20,20,Technical Issue
+38920,Madurai,Madurai-Mumbai,2025-09-29,03:15,04:15,60,Technical Issue
+10220,Trivandrum,Trivandrum-Mumbai,2025-08-21,05:15,06:15,60,Operational Delay
+31153,Madurai,Madurai-Chennai,2025-07-26,18:30,18:30,0,On Time
+81704,Jaipur,Jaipur-Goa,2025-09-09,15:30,17:30,120,Technical Issue
+39562,Chennai,Chennai-Mumbai,2025-08-11,17:30,17:50,20,Signal Failure
+80392,Kolkata,Kolkata-Bangalore,2025-08-26,16:45,17:30,45,Track Maintenance
+14924,Lucknow,Lucknow-Mumbai,2025-09-11,12:30,13:15,45,Track Maintenance
+47795,Ahmedabad,Ahmedabad-Varanasi,2025-09-27,13:30,13:30,0,On Time
+19236,Nagpur,Nagpur-Lucknow,2025-08-10,01:00,01:15,15,Weather
+42240,Nagpur,Nagpur-Madurai,2025-09-27,08:30,08:45,15,Crew Unavailability
+74825,Ahmedabad,Ahmedabad-Hyderabad,2025-07-22,05:30,05:30,0,On Time
+98677,Delhi,Delhi-Patna,2025-08-13,13:00,13:30,30,Weather
+40784,Lucknow,Lucknow-Nagpur,2025-07-29,04:15,04:35,20,Weather
+81798,Pune,Pune-Coimbatore,2025-08-18,22:30,22:40,10,Weather
+87872,Bangalore,Bangalore-Hyderabad,2025-09-29,00:15,03:15,180,Track Maintenance
+51787,Surat,Surat-Chennai,2025-09-04,17:15,18:00,45,Signal Failure
+51931,Coimbatore,Coimbatore-Patna,2025-09-03,23:45,00:00,15,Signal Failure
+32194,Ahmedabad,Ahmedabad-Lucknow,2025-08-12,17:30,17:50,20,Crew Unavailability
+62245,Bhopal,Bhopal-Pune,2025-07-20,11:45,11:45,0,On Time
+39088,Kolkata,Kolkata-Lucknow,2025-07-15,12:00,12:45,45,Operational Delay
+29354,Coimbatore,Coimbatore-Bangalore,2025-07-08,09:30,12:30,180,Technical Issue
+72575,Chennai,Chennai-Madurai,2025-08-08,00:00,00:20,20,Signal Failure
+57549,Delhi,Delhi-Coimbatore,2025-07-20,06:00,06:05,5,Track Maintenance
+50055,Lucknow,Lucknow-Hyderabad,2025-07-16,11:30,11:30,0,On Time
+65689,Trivandrum,Trivandrum-Varanasi,2025-07-17,08:45,09:05,20,Weather
+97256,Hyderabad,Hyderabad-Pune,2025-07-13,08:45,09:15,30,Signal Failure
+72897,Kolkata,Kolkata-Nagpur,2025-08-05,20:00,22:30,150,Weather
+90357,Bhopal,Bhopal-Hyderabad,2025-07-10,10:15,10:30,15,Weather
+30265,Goa,Goa-Lucknow,2025-07-12,14:30,14:30,0,On Time
+41913,Chennai,Chennai-Ahmedabad,2025-08-26,19:30,19:30,0,On Time
+46731,Lucknow,Lucknow-Pune,2025-09-24,00:45,01:05,20,Operational Delay
+66814,Bhopal,Bhopal-Kolkata,2025-07-24,21:30,22:00,30,Track Maintenance
+30564,Surat,Surat-Pune,2025-08-09,10:45,11:15,30,Operational Delay
+94153,Ahmedabad,Ahmedabad-Pune,2025-08-11,23:45,23:45,0,On Time
+30994,Varanasi,Varanasi-Mumbai,2025-07-24,06:15,07:00,45,Technical Issue
+49408,Surat,Surat-Delhi,2025-08-31,11:00,11:30,30,Signal Failure
+85961,Madurai,Madurai-Bangalore,2025-08-05,08:30,09:30,60,Technical Issue
+49486,Kolkata,Kolkata-Hyderabad,2025-07-15,13:00,15:00,120,Operational Delay
+33230,Mumbai,Mumbai-Delhi,2025-09-10,11:00,13:30,150,Signal Failure
+17140,Bhopal,Bhopal-Trivandrum,2025-08-13,02:45,02:50,5,Weather
+81354,Varanasi,Varanasi-Jaipur,2025-09-05,04:30,04:45,15,Track Maintenance
+54785,Lucknow,Lucknow-Ahmedabad,2025-07-10,20:30,21:00,30,Signal Failure
+92316,Mumbai,Mumbai-Surat,2025-09-06,22:30,22:40,10,Weather
+58878,Bhopal,Bhopal-Nagpur,2025-09-06,10:45,10:50,5,Track Maintenance
+18437,Pune,Pune-Bhopal,2025-08-06,21:45,00:15,150,Weather
+97796,Jaipur,Jaipur-Delhi,2025-07-14,16:30,17:15,45,Track Maintenance
+73143,Jaipur,Jaipur-Delhi,2025-09-08,01:30,02:30,60,Crew Unavailability
+31617,Varanasi,Varanasi-Surat,2025-08-18,21:15,23:15,120,Weather
+58375,Chennai,Chennai-Goa,2025-09-11,13:30,13:50,20,Weather
+81395,Delhi,Delhi-Bangalore,2025-09-08,10:30,11:30,60,Crew Unavailability
+62975,Mumbai,Mumbai-Chandigarh,2025-09-17,15:30,18:00,150,Crew Unavailability
+50214,Madurai,Madurai-Delhi,2025-09-08,00:15,03:15,180,Track Maintenance
+93154,Bangalore,Bangalore-Chennai,2025-09-28,18:45,21:15,150,Weather
+24193,Trivandrum,Trivandrum-Coimbatore,2025-07-12,15:30,16:30,60,Technical Issue
+98434,Surat,Surat-Delhi,2025-07-15,07:15,07:15,0,On Time
+55713,Bhopal,Bhopal-Coimbatore,2025-09-06,19:45,20:30,45,Signal Failure
+19531,Bhopal,Bhopal-Ahmedabad,2025-08-13,06:45,07:30,45,Technical Issue
+46065,Patna,Patna-Coimbatore,2025-09-14,05:45,05:50,5,Technical Issue
+94426,Ahmedabad,Ahmedabad-Trivandrum,2025-09-02,03:15,04:45,90,Track Maintenance
+52328,Madurai,Madurai-Chandigarh,2025-09-03,08:30,09:15,45,Operational Delay
+67645,Lucknow,Lucknow-Coimbatore,2025-08-04,23:00,00:00,60,Crew Unavailability
+28284,Delhi,Delhi-Bhopal,2025-09-25,23:15,23:15,0,On Time
+10928,Ahmedabad,Ahmedabad-Chennai,2025-07-27,05:45,06:05,20,Signal Failure
+52257,Nagpur,Nagpur-Goa,2025-09-02,20:15,20:25,10,Signal Failure
+11184,Kolkata,Kolkata-Patna,2025-08-25,17:45,18:45,60,Technical Issue
+65201,Lucknow,Lucknow-Pune,2025-07-27,04:45,06:15,90,Crew Unavailability
+65730,Kolkata,Kolkata-Ahmedabad,2025-09-26,23:30,00:15,45,Weather
+76006,Kolkata,Kolkata-Jaipur,2025-09-26,17:15,18:45,90,Operational Delay
+78671,Nagpur,Nagpur-Kolkata,2025-07-19,18:45,19:30,45,Operational Delay
+28512,Goa,Goa-Bangalore,2025-09-15,13:15,13:20,5,Weather
+11632,Mumbai,Mumbai-Jaipur,2025-09-09,21:15,23:15,120,Signal Failure
+23036,Pune,Pune-Varanasi,2025-08-05,01:45,02:05,20,Operational Delay
+43488,Bhopal,Bhopal-Hyderabad,2025-08-12,01:00,02:00,60,Weather
+53390,Kolkata,Kolkata-Hyderabad,2025-08-06,02:30,02:30,0,On Time
+62637,Chennai,Chennai-Patna,2025-07-20,04:00,04:00,0,On Time
+14392,Nagpur,Nagpur-Coimbatore,2025-08-14,19:15,19:15,0,On Time
+48070,Hyderabad,Hyderabad-Ahmedabad,2025-07-31,02:45,03:45,60,Weather
+43489,Chennai,Chennai-Mumbai,2025-09-14,06:30,06:45,15,Signal Failure
+66043,Chennai,Chennai-Surat,2025-08-24,11:45,12:30,45,Track Maintenance
+11221,Varanasi,Varanasi-Surat,2025-07-30,19:00,19:45,45,Technical Issue
+68171,Jaipur,Jaipur-Lucknow,2025-09-21,00:30,01:15,45,Signal Failure
+98572,Chennai,Chennai-Madurai,2025-08-16,00:15,00:30,15,Technical Issue
+67195,Varanasi,Varanasi-Patna,2025-07-24,03:00,05:00,120,Weather
+36552,Chennai,Chennai-Chandigarh,2025-07-28,22:45,23:30,45,Weather
+77782,Goa,Goa-Hyderabad,2025-08-11,18:30,19:30,60,Signal Failure
+12371,Goa,Goa-Delhi,2025-09-24,13:30,13:40,10,Signal Failure
+61559,Varanasi,Varanasi-Bangalore,2025-09-30,09:30,09:50,20,Technical Issue
+28331,Chennai,Chennai-Surat,2025-08-10,18:00,18:05,5,Track Maintenance
+14886,Delhi,Delhi-Hyderabad,2025-09-19,06:30,06:50,20,Operational Delay
+34509,Trivandrum,Trivandrum-Patna,2025-09-07,17:30,18:15,45,Technical Issue
+20061,Ahmedabad,Ahmedabad-Surat,2025-08-27,21:15,22:15,60,Signal Failure
+68048,Mumbai,Mumbai-Nagpur,2025-09-19,10:45,11:00,15,Track Maintenance
+99946,Nagpur,Nagpur-Lucknow,2025-08-20,07:00,07:20,20,Operational Delay
+88903,Surat,Surat-Pune,2025-07-28,23:45,00:45,60,Track Maintenance
+96935,Chandigarh,Chandigarh-Patna,2025-09-12,00:00,03:00,180,Operational Delay
+74520,Lucknow,Lucknow-Chandigarh,2025-07-06,11:30,13:30,120,Weather
+59637,Surat,Surat-Madurai,2025-09-23,10:45,11:15,30,Track Maintenance
+35160,Bhopal,Bhopal-Ahmedabad,2025-08-30,21:15,00:15,180,Track Maintenance
+93786,Delhi,Delhi-Kolkata,2025-08-19,00:45,03:15,150,Technical Issue
+94118,Lucknow,Lucknow-Hyderabad,2025-08-24,21:00,21:10,10,Crew Unavailability
+63527,Hyderabad,Hyderabad-Ahmedabad,2025-08-26,21:00,21:45,45,Signal Failure
+54650,Ahmedabad,Ahmedabad-Hyderabad,2025-09-24,21:45,21:55,10,Track Maintenance
+22861,Varanasi,Varanasi-Ahmedabad,2025-07-21,17:45,20:15,150,Signal Failure
+32977,Ahmedabad,Ahmedabad-Jaipur,2025-09-22,10:15,10:35,20,Track Maintenance
+72679,Kolkata,Kolkata-Delhi,2025-08-04,19:00,20:00,60,Crew Unavailability
+94102,Madurai,Madurai-Delhi,2025-09-11,21:45,21:50,5,Weather
+30189,Mumbai,Mumbai-Varanasi,2025-07-06,05:30,06:15,45,Operational Delay
+64357,Lucknow,Lucknow-Surat,2025-09-17,01:15,03:45,150,Crew Unavailability
+81892,Madurai,Madurai-Chennai,2025-08-20,23:30,23:35,5,Signal Failure
+90296,Madurai,Madurai-Pune,2025-08-24,09:15,10:00,45,Crew Unavailability
+74773,Patna,Patna-Madurai,2025-08-17,11:00,11:10,10,Operational Delay
+78607,Varanasi,Varanasi-Trivandrum,2025-08-20,12:15,13:00,45,Operational Delay
+17371,Coimbatore,Coimbatore-Chandigarh,2025-09-09,14:30,14:45,15,Weather
+10490,Ahmedabad,Ahmedabad-Chandigarh,2025-08-23,08:45,10:15,90,Weather
+31473,Chandigarh,Chandigarh-Pune,2025-09-25,22:15,01:15,180,Track Maintenance
+16279,Delhi,Delhi-Pune,2025-09-15,19:15,20:15,60,Operational Delay
+22579,Madurai,Madurai-Ahmedabad,2025-09-03,05:30,08:00,150,Track Maintenance
+80121,Bhopal,Bhopal-Ahmedabad,2025-08-20,11:15,11:35,20,Technical Issue
+34774,Trivandrum,Trivandrum-Pune,2025-09-21,10:15,11:15,60,Track Maintenance
+65507,Lucknow,Lucknow-Goa,2025-09-02,22:30,22:40,10,Weather
+44601,Bangalore,Bangalore-Bhopal,2025-09-11,21:30,23:00,90,Crew Unavailability
+57112,Kolkata,Kolkata-Hyderabad,2025-08-10,08:30,09:15,45,Crew Unavailability
+55521,Trivandrum,Trivandrum-Surat,2025-08-17,12:45,13:05,20,Crew Unavailability
+50575,Goa,Goa-Lucknow,2025-08-13,14:15,14:20,5,Operational Delay
+55537,Patna,Patna-Jaipur,2025-08-18,22:15,00:15,120,Operational Delay
+72276,Varanasi,Varanasi-Surat,2025-07-06,19:30,20:00,30,Track Maintenance
+30067,Pune,Pune-Trivandrum,2025-09-13,14:00,15:00,60,Track Maintenance
+63647,Bangalore,Bangalore-Coimbatore,2025-07-20,10:45,11:15,30,Track Maintenance
+59983,Jaipur,Jaipur-Surat,2025-09-27,05:45,05:45,0,On Time
+47567,Pune,Pune-Lucknow,2025-09-13,01:30,03:00,90,Weather
+20746,Kolkata,Kolkata-Jaipur,2025-09-18,23:30,23:35,5,Signal Failure
+21046,Delhi,Delhi-Chennai,2025-07-29,23:45,23:55,10,Crew Unavailability
+55587,Mumbai,Mumbai-Bangalore,2025-07-29,15:00,15:00,0,On Time
+30645,Jaipur,Jaipur-Nagpur,2025-09-22,18:00,18:45,45,Track Maintenance
+66806,Nagpur,Nagpur-Lucknow,2025-09-01,05:15,07:45,150,Crew Unavailability
+60052,Madurai,Madurai-Mumbai,2025-09-19,19:30,22:00,150,Crew Unavailability
+93666,Madurai,Madurai-Jaipur,2025-07-16,07:30,08:00,30,Operational Delay
+37969,Madurai,Madurai-Jaipur,2025-07-10,01:00,03:00,120,Weather
+36496,Hyderabad,Hyderabad-Pune,2025-08-24,18:30,21:00,150,Operational Delay
+13886,Coimbatore,Coimbatore-Trivandrum,2025-09-09,22:15,22:25,10,Signal Failure
+96216,Pune,Pune-Trivandrum,2025-09-10,12:30,12:40,10,Weather
+80159,Patna,Patna-Delhi,2025-07-07,03:00,03:30,30,Weather
+28568,Madurai,Madurai-Hyderabad,2025-07-30,12:30,12:30,0,On Time
+51416,Surat,Surat-Lucknow,2025-07-10,17:00,18:00,60,Crew Unavailability
+48662,Jaipur,Jaipur-Mumbai,2025-07-30,19:15,19:45,30,Operational Delay
+85541,Surat,Surat-Ahmedabad,2025-07-17,12:00,12:05,5,Weather
+59469,Goa,Goa-Trivandrum,2025-07-29,01:30,01:45,15,Operational Delay
+19008,Jaipur,Jaipur-Ahmedabad,2025-09-12,05:45,06:00,15,Weather
+76588,Ahmedabad,Ahmedabad-Lucknow,2025-09-30,02:00,04:30,150,Track Maintenance
+85696,Surat,Surat-Jaipur,2025-07-22,21:00,22:00,60,Crew Unavailability
+73054,Jaipur,Jaipur-Kolkata,2025-08-07,10:30,10:35,5,Weather
+72541,Goa,Goa-Delhi,2025-07-14,15:15,17:45,150,Weather
+28277,Pune,Pune-Surat,2025-09-28,02:00,04:30,150,Crew Unavailability
+12120,Chandigarh,Chandigarh-Mumbai,2025-08-08,07:00,07:05,5,Crew Unavailability
+78228,Kolkata,Kolkata-Trivandrum,2025-09-28,09:00,09:00,0,On Time
+26243,Lucknow,Lucknow-Chennai,2025-07-25,18:45,21:45,180,Signal Failure
+97658,Ahmedabad,Ahmedabad-Pune,2025-09-06,21:45,23:15,90,Weather
+24869,Bangalore,Bangalore-Lucknow,2025-07-11,23:30,23:40,10,Operational Delay
+88575,Jaipur,Jaipur-Varanasi,2025-09-13,00:45,02:15,90,Technical Issue
+28896,Coimbatore,Coimbatore-Madurai,2025-07-29,18:30,18:45,15,Operational Delay
+15858,Goa,Goa-Chandigarh,2025-07-17,03:45,04:05,20,Operational Delay
+60737,Jaipur,Jaipur-Pune,2025-09-27,16:00,18:30,150,Technical Issue
+79485,Varanasi,Varanasi-Nagpur,2025-07-02,05:00,05:00,0,On Time
+78875,Bhopal,Bhopal-Kolkata,2025-09-13,10:45,10:50,5,Signal Failure
+24958,Hyderabad,Hyderabad-Goa,2025-08-06,00:30,00:30,0,On Time
+24493,Surat,Surat-Varanasi,2025-09-18,04:00,04:15,15,Signal Failure
+78055,Pune,Pune-Bangalore,2025-09-19,22:30,00:00,90,Technical Issue
+86596,Goa,Goa-Lucknow,2025-08-01,02:00,02:20,20,Track Maintenance
+35955,Goa,Goa-Coimbatore,2025-09-01,13:30,13:45,15,Technical Issue
+51572,Pune,Pune-Goa,2025-09-07,07:00,09:00,120,Track Maintenance
+21961,Goa,Goa-Nagpur,2025-07-11,21:45,21:50,5,Crew Unavailability
+93607,Trivandrum,Trivandrum-Pune,2025-09-28,09:00,11:00,120,Track Maintenance
+65451,Madurai,Madurai-Bangalore,2025-08-23,15:30,18:30,180,Signal Failure
+79016,Nagpur,Nagpur-Mumbai,2025-08-29,04:45,07:15,150,Weather
+24729,Varanasi,Varanasi-Chennai,2025-08-16,14:00,14:05,5,Track Maintenance
+72173,Goa,Goa-Bangalore,2025-09-10,19:45,21:45,120,Crew Unavailability
+81611,Lucknow,Lucknow-Bhopal,2025-09-09,07:15,08:00,45,Weather
+90371,Mumbai,Mumbai-Patna,2025-07-30,12:15,12:25,10,Weather
+24974,Kolkata,Kolkata-Coimbatore,2025-08-10,06:45,07:30,45,Track Maintenance
+90624,Lucknow,Lucknow-Surat,2025-09-10,20:45,22:15,90,Weather
+60930,Surat,Surat-Ahmedabad,2025-09-20,02:15,02:25,10,Crew Unavailability
+34495,Coimbatore,Coimbatore-Bhopal,2025-08-14,23:45,00:45,60,Signal Failure
+56111,Delhi,Delhi-Chandigarh,2025-09-17,04:00,04:10,10,Operational Delay
+95163,Varanasi,Varanasi-Chennai,2025-08-23,02:45,03:45,60,Operational Delay
+61776,Chandigarh,Chandigarh-Bangalore,2025-07-04,04:15,05:45,90,Crew Unavailability
+60072,Trivandrum,Trivandrum-Bangalore,2025-08-31,07:45,10:15,150,Track Maintenance
+66488,Kolkata,Kolkata-Chennai,2025-08-24,08:30,09:30,60,Technical Issue
+50238,Delhi,Delhi-Coimbatore,2025-07-03,22:30,00:30,120,Crew Unavailability
+58030,Mumbai,Mumbai-Pune,2025-09-27,23:45,00:05,20,Track Maintenance
+59661,Trivandrum,Trivandrum-Varanasi,2025-09-05,01:00,02:00,60,Weather
+94547,Chennai,Chennai-Goa,2025-07-21,05:30,05:45,15,Signal Failure
+65305,Surat,Surat-Chandigarh,2025-09-29,06:00,06:10,10,Signal Failure
+25491,Ahmedabad,Ahmedabad-Trivandrum,2025-09-04,01:00,01:05,5,Technical Issue
+39227,Goa,Goa-Patna,2025-07-24,22:45,23:00,15,Crew Unavailability
+26572,Lucknow,Lucknow-Trivandrum,2025-07-26,03:00,03:20,20,Crew Unavailability
+72368,Surat,Surat-Chennai,2025-09-03,19:15,22:15,180,Weather
+96005,Hyderabad,Hyderabad-Bhopal,2025-07-24,15:30,18:30,180,Crew Unavailability
+93895,Chandigarh,Chandigarh-Kolkata,2025-07-31,18:00,18:00,0,On Time
+86196,Trivandrum,Trivandrum-Bangalore,2025-08-27,15:00,15:05,5,Crew Unavailability
+25846,Pune,Pune-Chandigarh,2025-07-13,08:15,08:15,0,On Time
+25037,Hyderabad,Hyderabad-Trivandrum,2025-09-06,08:45,11:45,180,Crew Unavailability
+23704,Chennai,Chennai-Goa,2025-08-13,12:00,14:00,120,Weather
+49519,Hyderabad,Hyderabad-Nagpur,2025-08-30,20:30,22:30,120,Weather
+17786,Bhopal,Bhopal-Hyderabad,2025-07-19,01:45,02:45,60,Weather
+36828,Mumbai,Mumbai-Lucknow,2025-07-21,22:15,00:15,120,Operational Delay
+16762,Kolkata,Kolkata-Ahmedabad,2025-08-13,08:45,08:50,5,Weather
+20035,Lucknow,Lucknow-Bhopal,2025-08-12,21:00,00:00,180,Signal Failure
+15323,Ahmedabad,Ahmedabad-Chandigarh,2025-08-26,12:30,13:15,45,Crew Unavailability
+94191,Delhi,Delhi-Madurai,2025-07-05,03:45,06:45,180,Track Maintenance
+79240,Patna,Patna-Kolkata,2025-09-13,00:45,00:45,0,On Time
+55578,Ahmedabad,Ahmedabad-Lucknow,2025-09-17,01:15,02:00,45,Operational Delay
+40384,Jaipur,Jaipur-Goa,2025-09-17,07:15,07:25,10,Technical Issue
+15945,Bangalore,Bangalore-Coimbatore,2025-08-12,07:00,07:45,45,Technical Issue
+74553,Nagpur,Nagpur-Delhi,2025-08-11,11:15,12:15,60,Crew Unavailability
+30717,Bangalore,Bangalore-Varanasi,2025-07-05,03:45,03:50,5,Operational Delay
+82610,Nagpur,Nagpur-Coimbatore,2025-07-31,10:45,13:15,150,Technical Issue
+75904,Goa,Goa-Mumbai,2025-09-04,01:15,03:15,120,Operational Delay
+62420,Trivandrum,Trivandrum-Bhopal,2025-07-31,02:30,04:00,90,Signal Failure
+14193,Pune,Pune-Bhopal,2025-08-09,04:15,07:15,180,Crew Unavailability
+89786,Trivandrum,Trivandrum-Ahmedabad,2025-08-21,08:00,10:00,120,Crew Unavailability
+90966,Chandigarh,Chandigarh-Patna,2025-09-30,10:30,11:00,30,Operational Delay
+90498,Bhopal,Bhopal-Surat,2025-07-11,23:00,00:00,60,Track Maintenance
+65812,Chennai,Chennai-Jaipur,2025-09-29,23:15,01:15,120,Operational Delay
+61940,Surat,Surat-Goa,2025-07-13,02:00,02:10,10,Crew Unavailability
+48854,Mumbai,Mumbai-Lucknow,2025-08-13,16:00,16:00,0,On Time
+40209,Patna,Patna-Mumbai,2025-09-21,04:15,04:35,20,Crew Unavailability
+52710,Surat,Surat-Delhi,2025-08-18,08:30,08:30,0,On Time
+79199,Chandigarh,Chandigarh-Madurai,2025-08-27,02:15,02:45,30,Technical Issue
+98086,Lucknow,Lucknow-Madurai,2025-07-04,10:45,13:15,150,Track Maintenance
+93687,Chandigarh,Chandigarh-Jaipur,2025-09-15,17:45,17:50,5,Weather
+32091,Patna,Patna-Lucknow,2025-08-30,10:00,10:05,5,Operational Delay
+42119,Patna,Patna-Bangalore,2025-08-10,00:30,00:35,5,Signal Failure
+84810,Pune,Pune-Chandigarh,2025-09-29,17:15,18:45,90,Technical Issue
+89434,Trivandrum,Trivandrum-Lucknow,2025-09-09,15:30,17:30,120,Signal Failure
+56625,Hyderabad,Hyderabad-Jaipur,2025-08-19,19:00,19:30,30,Weather
+53861,Pune,Pune-Kolkata,2025-08-04,06:15,08:15,120,Operational Delay
+46601,Bangalore,Bangalore-Kolkata,2025-07-24,16:30,16:50,20,Weather
+94848,Chennai,Chennai-Mumbai,2025-09-01,07:00,08:00,60,Weather
+40304,Bhopal,Bhopal-Madurai,2025-07-30,01:00,04:00,180,Signal Failure
+28730,Trivandrum,Trivandrum-Mumbai,2025-07-08,16:00,16:15,15,Track Maintenance
+15197,Pune,Pune-Lucknow,2025-07-16,19:00,19:05,5,Operational Delay
+66617,Goa,Goa-Ahmedabad,2025-07-07,16:15,17:00,45,Crew Unavailability
+50788,Ahmedabad,Ahmedabad-Pune,2025-08-10,13:15,16:15,180,Crew Unavailability
+30196,Ahmedabad,Ahmedabad-Varanasi,2025-09-24,02:15,03:15,60,Track Maintenance
+25866,Hyderabad,Hyderabad-Varanasi,2025-07-31,11:00,11:20,20,Operational Delay
+10511,Coimbatore,Coimbatore-Nagpur,2025-09-09,07:30,07:40,10,Track Maintenance
+41525,Coimbatore,Coimbatore-Ahmedabad,2025-08-06,09:30,12:00,150,Weather
+41528,Jaipur,Jaipur-Goa,2025-08-13,12:15,12:20,5,Signal Failure
+35087,Varanasi,Varanasi-Pune,2025-09-06,10:00,11:30,90,Weather
+85355,Goa,Goa-Madurai,2025-09-06,11:00,11:15,15,Technical Issue
+85801,Goa,Goa-Delhi,2025-08-26,08:30,10:30,120,Signal Failure
+50933,Madurai,Madurai-Kolkata,2025-08-09,00:00,00:15,15,Operational Delay
+41973,Mumbai,Mumbai-Chandigarh,2025-09-21,03:45,03:55,10,Crew Unavailability
+17037,Ahmedabad,Ahmedabad-Delhi,2025-07-29,04:30,04:40,10,Technical Issue
+93354,Mumbai,Mumbai-Varanasi,2025-07-24,13:15,13:45,30,Signal Failure
+49494,Delhi,Delhi-Patna,2025-09-14,10:45,11:30,45,Track Maintenance
+96598,Pune,Pune-Lucknow,2025-08-29,07:45,09:45,120,Operational Delay
+72758,Patna,Patna-Chandigarh,2025-09-03,10:45,13:45,180,Track Maintenance
+75449,Hyderabad,Hyderabad-Chennai,2025-09-07,05:45,07:15,90,Crew Unavailability
+49114,Hyderabad,Hyderabad-Nagpur,2025-07-02,22:30,23:15,45,Crew Unavailability
+84075,Jaipur,Jaipur-Mumbai,2025-08-21,04:30,07:30,180,Weather
+33422,Bhopal,Bhopal-Lucknow,2025-09-26,02:00,04:30,150,Technical Issue
+48894,Hyderabad,Hyderabad-Trivandrum,2025-08-11,16:00,16:00,0,On Time
+53259,Bangalore,Bangalore-Delhi,2025-08-10,02:45,03:45,60,Track Maintenance
+79281,Hyderabad,Hyderabad-Mumbai,2025-07-12,06:45,06:45,0,On Time
+72777,Delhi,Delhi-Lucknow,2025-09-21,15:15,15:45,30,Operational Delay
+94244,Hyderabad,Hyderabad-Coimbatore,2025-07-01,23:15,00:15,60,Signal Failure
+90037,Chennai,Chennai-Mumbai,2025-07-25,05:30,05:45,15,Weather
+83227,Chennai,Chennai-Jaipur,2025-08-10,08:00,09:30,90,Technical Issue
+80469,Ahmedabad,Ahmedabad-Pune,2025-09-23,13:00,13:00,0,On Time
+77257,Delhi,Delhi-Chandigarh,2025-09-04,02:15,04:45,150,Weather
+18630,Ahmedabad,Ahmedabad-Pune,2025-08-11,00:00,00:05,5,Track Maintenance
+29723,Bangalore,Bangalore-Coimbatore,2025-09-12,04:00,04:00,0,On Time
+24211,Surat,Surat-Jaipur,2025-07-18,08:00,10:00,120,Crew Unavailability
+31898,Goa,Goa-Surat,2025-08-30,22:15,00:45,150,Operational Delay
+82937,Surat,Surat-Pune,2025-08-28,11:45,11:55,10,Technical Issue
+40737,Mumbai,Mumbai-Bangalore,2025-09-26,12:15,15:15,180,Signal Failure
+84578,Ahmedabad,Ahmedabad-Kolkata,2025-07-26,13:45,14:45,60,Crew Unavailability
+69210,Patna,Patna-Bangalore,2025-07-14,14:30,16:30,120,Technical Issue
+51485,Varanasi,Varanasi-Patna,2025-08-24,16:15,19:15,180,Technical Issue
+85392,Hyderabad,Hyderabad-Coimbatore,2025-08-26,18:00,21:00,180,Operational Delay
+29798,Trivandrum,Trivandrum-Delhi,2025-08-27,14:45,15:15,30,Weather
+91873,Ahmedabad,Ahmedabad-Lucknow,2025-08-20,07:30,09:00,90,Crew Unavailability
+46656,Coimbatore,Coimbatore-Mumbai,2025-08-06,12:00,12:05,5,Weather
+44110,Coimbatore,Coimbatore-Kolkata,2025-08-29,16:30,16:40,10,Technical Issue
+86583,Nagpur,Nagpur-Madurai,2025-08-01,11:00,13:00,120,Crew Unavailability
+28788,Kolkata,Kolkata-Madurai,2025-08-19,23:30,00:15,45,Technical Issue
+78818,Mumbai,Mumbai-Lucknow,2025-07-16,14:30,17:00,150,Track Maintenance
+23909,Bangalore,Bangalore-Lucknow,2025-09-07,22:45,23:15,30,Operational Delay
+95065,Pune,Pune-Coimbatore,2025-09-30,13:45,13:50,5,Track Maintenance
+20072,Goa,Goa-Nagpur,2025-07-16,06:15,06:25,10,Signal Failure
+77145,Surat,Surat-Chandigarh,2025-09-15,18:15,19:15,60,Operational Delay
+57187,Varanasi,Varanasi-Chandigarh,2025-07-16,18:15,20:15,120,Track Maintenance
+36115,Mumbai,Mumbai-Madurai,2025-07-07,21:00,21:05,5,Signal Failure
+97238,Bhopal,Bhopal-Chandigarh,2025-08-11,07:15,09:15,120,Technical Issue
+25937,Chennai,Chennai-Trivandrum,2025-09-16,17:30,17:45,15,Crew Unavailability
+54204,Patna,Patna-Jaipur,2025-08-13,08:00,10:30,150,Weather
+95439,Chandigarh,Chandigarh-Lucknow,2025-09-20,14:00,15:30,90,Signal Failure
+35031,Delhi,Delhi-Varanasi,2025-07-11,07:45,10:15,150,Weather
+19213,Chennai,Chennai-Trivandrum,2025-08-20,16:15,16:20,5,Track Maintenance
+68948,Hyderabad,Hyderabad-Madurai,2025-08-14,10:15,10:15,0,On Time
+62248,Nagpur,Nagpur-Lucknow,2025-07-27,22:00,22:00,0,On Time
+82218,Mumbai,Mumbai-Ahmedabad,2025-07-13,20:00,20:15,15,Track Maintenance
+79882,Goa,Goa-Varanasi,2025-08-31,23:45,00:00,15,Operational Delay
+55779,Chandigarh,Chandigarh-Delhi,2025-09-10,17:30,20:00,150,Crew Unavailability
+15026,Hyderabad,Hyderabad-Chennai,2025-07-19,17:15,17:35,20,Crew Unavailability
+35847,Surat,Surat-Chandigarh,2025-07-17,05:15,05:45,30,Track Maintenance
+28930,Coimbatore,Coimbatore-Chennai,2025-08-04,09:15,10:15,60,Technical Issue
+17430,Kolkata,Kolkata-Madurai,2025-07-29,22:45,23:45,60,Weather
+99760,Madurai,Madurai-Varanasi,2025-08-02,16:30,16:45,15,Crew Unavailability
+61985,Hyderabad,Hyderabad-Pune,2025-08-30,17:15,17:30,15,Signal Failure
+48009,Delhi,Delhi-Varanasi,2025-09-22,19:30,19:35,5,Signal Failure
+66903,Bangalore,Bangalore-Chennai,2025-09-05,13:00,13:15,15,Signal Failure
+57198,Surat,Surat-Nagpur,2025-08-30,00:30,02:00,90,Operational Delay
+54217,Jaipur,Jaipur-Chandigarh,2025-07-26,15:45,16:45,60,Operational Delay
+22602,Bhopal,Bhopal-Surat,2025-09-17,18:30,20:00,90,Crew Unavailability
+30870,Pune,Pune-Jaipur,2025-07-09,16:45,17:15,30,Operational Delay
+47546,Chandigarh,Chandigarh-Pune,2025-07-07,04:30,06:30,120,Signal Failure
+38090,Goa,Goa-Hyderabad,2025-09-15,13:00,15:30,150,Track Maintenance
+74713,Ahmedabad,Ahmedabad-Lucknow,2025-09-05,14:45,15:30,45,Operational Delay
+47687,Delhi,Delhi-Pune,2025-09-27,03:15,04:00,45,Signal Failure
+13969,Chennai,Chennai-Lucknow,2025-07-29,22:30,23:15,45,Signal Failure
+14193,Coimbatore,Coimbatore-Kolkata,2025-08-14,17:15,17:35,20,Track Maintenance
+17333,Madurai,Madurai-Chandigarh,2025-07-08,04:00,04:00,0,On Time
+97735,Ahmedabad,Ahmedabad-Coimbatore,2025-08-15,06:15,06:35,20,Crew Unavailability
+62133,Pune,Pune-Goa,2025-08-23,11:45,13:15,90,Track Maintenance
+86003,Madurai,Madurai-Mumbai,2025-07-18,03:15,06:15,180,Track Maintenance
+28593,Varanasi,Varanasi-Chandigarh,2025-07-11,21:30,22:00,30,Technical Issue
+60570,Coimbatore,Coimbatore-Lucknow,2025-08-21,21:45,21:50,5,Crew Unavailability
+94233,Trivandrum,Trivandrum-Surat,2025-09-23,14:00,14:30,30,Signal Failure
+12038,Bhopal,Bhopal-Bangalore,2025-09-07,13:45,13:45,0,On Time
+66511,Patna,Patna-Chennai,2025-07-16,03:45,03:45,0,On Time
+48497,Chennai,Chennai-Nagpur,2025-08-06,17:30,17:35,5,Technical Issue
+42602,Lucknow,Lucknow-Mumbai,2025-07-08,06:00,06:10,10,Signal Failure
+37482,Delhi,Delhi-Ahmedabad,2025-09-11,01:15,02:00,45,Crew Unavailability
+14973,Jaipur,Jaipur-Chandigarh,2025-08-15,06:30,06:30,0,On Time
+78485,Ahmedabad,Ahmedabad-Nagpur,2025-07-12,18:30,18:35,5,Signal Failure
+76241,Surat,Surat-Nagpur,2025-09-06,01:15,02:15,60,Crew Unavailability
+99887,Delhi,Delhi-Chennai,2025-09-26,00:45,00:50,5,Crew Unavailability
+67972,Nagpur,Nagpur-Delhi,2025-09-02,10:15,10:20,5,Crew Unavailability
+45810,Bangalore,Bangalore-Jaipur,2025-07-06,18:30,21:30,180,Operational Delay
+72133,Mumbai,Mumbai-Surat,2025-08-23,05:15,05:25,10,Weather
+17385,Surat,Surat-Trivandrum,2025-07-12,14:45,17:45,180,Signal Failure
+65814,Coimbatore,Coimbatore-Ahmedabad,2025-07-12,11:15,13:15,120,Operational Delay
+76470,Pune,Pune-Coimbatore,2025-09-18,19:15,22:15,180,Weather
+23218,Chennai,Chennai-Mumbai,2025-08-03,09:30,09:30,0,On Time
+63356,Jaipur,Jaipur-Bangalore,2025-07-04,20:45,20:55,10,Signal Failure
+89968,Lucknow,Lucknow-Pune,2025-09-30,00:00,02:00,120,Weather
+40035,Patna,Patna-Bangalore,2025-09-06,18:45,19:30,45,Signal Failure
+59671,Nagpur,Nagpur-Bhopal,2025-09-20,21:00,21:00,0,On Time
+18484,Bangalore,Bangalore-Chennai,2025-09-07,12:00,15:00,180,Operational Delay
+28840,Ahmedabad,Ahmedabad-Delhi,2025-07-18,10:30,10:45,15,Weather
+59138,Pune,Pune-Goa,2025-08-15,13:45,15:15,90,Operational Delay
+74678,Chennai,Chennai-Coimbatore,2025-09-07,00:00,00:45,45,Operational Delay
+75679,Bhopal,Bhopal-Delhi,2025-07-22,06:30,09:00,150,Weather
+35118,Madurai,Madurai-Varanasi,2025-07-21,11:00,11:05,5,Operational Delay
+91408,Madurai,Madurai-Bangalore,2025-08-05,13:45,16:45,180,Signal Failure
+68581,Goa,Goa-Bhopal,2025-08-18,02:30,02:40,10,Signal Failure
+27267,Bhopal,Bhopal-Kolkata,2025-08-20,15:45,15:50,5,Signal Failure
+60743,Surat,Surat-Ahmedabad,2025-07-21,04:45,05:00,15,Crew Unavailability
+44979,Mumbai,Mumbai-Lucknow,2025-08-30,21:15,23:15,120,Weather
+30973,Nagpur,Nagpur-Jaipur,2025-08-25,23:30,02:00,150,Weather
+50715,Patna,Patna-Bangalore,2025-08-13,16:30,16:45,15,Signal Failure
+30715,Trivandrum,Trivandrum-Chandigarh,2025-09-10,21:00,21:05,5,Weather
+49674,Varanasi,Varanasi-Pune,2025-08-17,18:45,21:45,180,Signal Failure
+84467,Pune,Pune-Goa,2025-09-18,04:15,05:45,90,Weather
+49141,Nagpur,Nagpur-Delhi,2025-09-27,21:30,21:50,20,Signal Failure
+43196,Trivandrum,Trivandrum-Goa,2025-07-06,08:00,10:30,150,Weather
+76702,Jaipur,Jaipur-Ahmedabad,2025-08-15,11:30,13:00,90,Crew Unavailability
+21185,Ahmedabad,Ahmedabad-Madurai,2025-09-24,09:00,10:00,60,Operational Delay
+60064,Hyderabad,Hyderabad-Surat,2025-08-13,11:00,13:00,120,Track Maintenance
+45028,Jaipur,Jaipur-Patna,2025-09-21,07:15,07:45,30,Signal Failure
+72392,Ahmedabad,Ahmedabad-Bhopal,2025-09-21,03:00,03:05,5,Weather
+65301,Lucknow,Lucknow-Pune,2025-08-16,05:00,05:20,20,Track Maintenance
+90913,Varanasi,Varanasi-Mumbai,2025-08-29,20:30,20:40,10,Crew Unavailability
+15152,Lucknow,Lucknow-Mumbai,2025-09-29,23:45,00:15,30,Signal Failure
+78539,Lucknow,Lucknow-Surat,2025-07-10,23:45,00:15,30,Operational Delay
+22168,Surat,Surat-Delhi,2025-09-07,15:45,17:15,90,Technical Issue
+89436,Hyderabad,Hyderabad-Madurai,2025-08-19,15:00,17:30,150,Track Maintenance
+12381,Goa,Goa-Kolkata,2025-07-06,20:45,21:30,45,Signal Failure
+29327,Varanasi,Varanasi-Pune,2025-07-18,09:30,09:30,0,On Time
+25665,Pune,Pune-Varanasi,2025-09-24,17:00,19:00,120,Weather
+17035,Chandigarh,Chandigarh-Kolkata,2025-08-30,18:30,18:30,0,On Time
+37547,Varanasi,Varanasi-Madurai,2025-07-24,02:00,03:00,60,Technical Issue
+14817,Lucknow,Lucknow-Coimbatore,2025-07-26,22:30,23:30,60,Weather
+55031,Trivandrum,Trivandrum-Nagpur,2025-08-05,23:15,00:45,90,Crew Unavailability
+64978,Surat,Surat-Chandigarh,2025-09-25,01:30,03:30,120,Crew Unavailability
+47234,Surat,Surat-Goa,2025-07-05,16:45,17:45,60,Crew Unavailability
+49014,Delhi,Delhi-Kolkata,2025-08-20,15:45,16:05,20,Operational Delay
+86712,Lucknow,Lucknow-Bhopal,2025-07-28,03:15,04:00,45,Signal Failure
+71083,Madurai,Madurai-Mumbai,2025-09-01,13:15,13:30,15,Signal Failure
+73255,Pune,Pune-Bhopal,2025-09-11,08:00,10:00,120,Signal Failure
+93828,Bangalore,Bangalore-Patna,2025-07-09,06:15,08:15,120,Operational Delay
+79130,Bangalore,Bangalore-Varanasi,2025-07-08,17:15,17:15,0,On Time
+58814,Chandigarh,Chandigarh-Trivandrum,2025-09-14,00:45,01:30,45,Signal Failure
+57570,Varanasi,Varanasi-Hyderabad,2025-08-12,18:45,18:55,10,Weather
+87332,Delhi,Delhi-Chandigarh,2025-07-03,05:00,07:30,150,Track Maintenance
+36315,Lucknow,Lucknow-Coimbatore,2025-07-14,15:15,18:15,180,Track Maintenance
+96451,Kolkata,Kolkata-Patna,2025-07-05,11:45,12:05,20,Weather
+16398,Trivandrum,Trivandrum-Pune,2025-08-24,01:30,04:30,180,Track Maintenance
+52763,Varanasi,Varanasi-Chennai,2025-08-21,12:30,14:00,90,Track Maintenance
+16365,Mumbai,Mumbai-Chandigarh,2025-07-27,20:00,20:00,0,On Time
+24265,Bhopal,Bhopal-Hyderabad,2025-08-01,20:30,23:00,150,Technical Issue
+98993,Nagpur,Nagpur-Mumbai,2025-08-26,09:15,09:30,15,Weather
+20928,Hyderabad,Hyderabad-Lucknow,2025-07-10,21:30,21:40,10,Crew Unavailability
+73830,Delhi,Delhi-Bangalore,2025-07-04,02:45,05:15,150,Weather
+24825,Bhopal,Bhopal-Delhi,2025-07-12,09:30,09:35,5,Weather
+51096,Goa,Goa-Surat,2025-07-31,05:30,07:00,90,Signal Failure
+47924,Delhi,Delhi-Varanasi,2025-08-13,16:45,19:15,150,Weather
+11404,Surat,Surat-Delhi,2025-08-25,10:30,12:30,120,Signal Failure
+71590,Chennai,Chennai-Kolkata,2025-07-07,17:00,19:00,120,Technical Issue
+29502,Madurai,Madurai-Kolkata,2025-09-10,10:45,10:55,10,Signal Failure
+35661,Coimbatore,Coimbatore-Trivandrum,2025-09-19,23:00,02:00,180,Crew Unavailability
+64009,Bangalore,Bangalore-Chandigarh,2025-08-16,16:30,16:45,15,Crew Unavailability
+68891,Jaipur,Jaipur-Patna,2025-08-09,23:45,23:55,10,Technical Issue
+58559,Nagpur,Nagpur-Bangalore,2025-07-09,09:30,10:15,45,Signal Failure
+60754,Patna,Patna-Surat,2025-09-12,07:30,07:35,5,Operational Delay
+47372,Madurai,Madurai-Chandigarh,2025-08-18,21:30,21:40,10,Operational Delay
+69353,Bhopal,Bhopal-Bangalore,2025-09-22,00:30,00:45,15,Technical Issue
+22187,Ahmedabad,Ahmedabad-Chandigarh,2025-09-15,12:30,12:45,15,Technical Issue
+95383,Lucknow,Lucknow-Mumbai,2025-09-11,01:45,01:50,5,Crew Unavailability
+97754,Delhi,Delhi-Bangalore,2025-07-12,20:15,20:20,5,Crew Unavailability
+38238,Delhi,Delhi-Nagpur,2025-07-30,17:45,18:45,60,Weather
+90784,Delhi,Delhi-Chennai,2025-09-01,22:15,01:15,180,Technical Issue
+15312,Ahmedabad,Ahmedabad-Bhopal,2025-07-23,14:30,15:00,30,Technical Issue
+43454,Hyderabad,Hyderabad-Pune,2025-07-29,12:45,13:00,15,Track Maintenance
+80765,Hyderabad,Hyderabad-Kolkata,2025-08-25,00:00,02:30,150,Crew Unavailability
+26730,Lucknow,Lucknow-Hyderabad,2025-09-01,20:45,23:45,180,Crew Unavailability
+54989,Jaipur,Jaipur-Nagpur,2025-09-12,09:00,12:00,180,Track Maintenance
+77066,Chennai,Chennai-Madurai,2025-07-21,18:15,19:00,45,Weather
+51374,Trivandrum,Trivandrum-Goa,2025-07-08,01:00,03:30,150,Weather
+94693,Nagpur,Nagpur-Pune,2025-08-08,19:30,20:15,45,Technical Issue
+92606,Varanasi,Varanasi-Bhopal,2025-08-15,07:15,09:45,150,Signal Failure
+75099,Pune,Pune-Delhi,2025-08-29,02:15,03:45,90,Technical Issue
+79244,Kolkata,Kolkata-Chandigarh,2025-07-10,01:30,02:15,45,Signal Failure
+80687,Jaipur,Jaipur-Madurai,2025-07-27,00:30,00:30,0,On Time
+30945,Patna,Patna-Jaipur,2025-07-06,16:30,17:15,45,Signal Failure
+89431,Bhopal,Bhopal-Lucknow,2025-08-08,03:30,05:00,90,Crew Unavailability
+98141,Jaipur,Jaipur-Ahmedabad,2025-09-02,04:45,04:50,5,Crew Unavailability
+36978,Goa,Goa-Patna,2025-08-11,22:15,22:20,5,Operational Delay
+53218,Surat,Surat-Delhi,2025-09-03,01:30,03:30,120,Signal Failure
+35988,Surat,Surat-Nagpur,2025-09-05,18:00,18:15,15,Weather
+74533,Hyderabad,Hyderabad-Pune,2025-09-10,09:00,09:45,45,Track Maintenance
+65135,Surat,Surat-Hyderabad,2025-09-09,17:00,17:20,20,Crew Unavailability
+60418,Goa,Goa-Varanasi,2025-09-02,01:00,01:10,10,Technical Issue
+81008,Kolkata,Kolkata-Bhopal,2025-09-15,00:45,00:45,0,On Time
+78975,Chennai,Chennai-Patna,2025-08-28,10:30,10:45,15,Crew Unavailability
+94120,Bhopal,Bhopal-Nagpur,2025-07-29,01:00,01:15,15,Weather
+62324,Hyderabad,Hyderabad-Ahmedabad,2025-07-06,08:00,08:05,5,Technical Issue
+28147,Surat,Surat-Ahmedabad,2025-07-01,13:45,16:45,180,Technical Issue
+33653,Chandigarh,Chandigarh-Hyderabad,2025-09-22,00:00,00:05,5,Signal Failure
+62658,Lucknow,Lucknow-Delhi,2025-09-13,08:15,09:15,60,Operational Delay
+36350,Trivandrum,Trivandrum-Bangalore,2025-09-06,08:45,10:45,120,Signal Failure
+69174,Patna,Patna-Madurai,2025-09-07,11:30,14:00,150,Crew Unavailability
+74929,Surat,Surat-Trivandrum,2025-09-20,06:00,06:00,0,On Time
+18335,Trivandrum,Trivandrum-Bhopal,2025-08-04,03:15,03:20,5,Track Maintenance
+73839,Lucknow,Lucknow-Patna,2025-07-03,04:15,05:15,60,Operational Delay
+14021,Pune,Pune-Bangalore,2025-09-04,10:15,11:45,90,Technical Issue
+41800,Ahmedabad,Ahmedabad-Surat,2025-08-23,06:30,07:15,45,Crew Unavailability
+84937,Kolkata,Kolkata-Goa,2025-09-17,16:00,16:20,20,Weather
+27810,Patna,Patna-Bhopal,2025-09-28,05:30,07:30,120,Crew Unavailability
+21392,Chennai,Chennai-Lucknow,2025-09-21,23:00,23:00,0,On Time
+51179,Bhopal,Bhopal-Varanasi,2025-07-25,13:15,16:15,180,Crew Unavailability
+64763,Coimbatore,Coimbatore-Delhi,2025-09-02,08:45,08:50,5,Signal Failure
+94365,Coimbatore,Coimbatore-Jaipur,2025-09-26,20:30,20:45,15,Operational Delay
+48213,Goa,Goa-Chandigarh,2025-09-18,10:45,10:55,10,Track Maintenance
+90393,Bangalore,Bangalore-Mumbai,2025-07-19,01:30,02:15,45,Technical Issue
+85725,Trivandrum,Trivandrum-Patna,2025-09-22,04:00,04:00,0,On Time
+58995,Lucknow,Lucknow-Pune,2025-08-15,10:00,11:30,90,Technical Issue
+25619,Trivandrum,Trivandrum-Bhopal,2025-09-09,14:30,17:00,150,Operational Delay
+50876,Nagpur,Nagpur-Chennai,2025-07-27,19:45,21:45,120,Operational Delay
+24848,Trivandrum,Trivandrum-Bangalore,2025-08-10,14:30,17:30,180,Weather
+73735,Surat,Surat-Bhopal,2025-07-05,07:00,10:00,180,Track Maintenance
+96563,Hyderabad,Hyderabad-Mumbai,2025-08-04,12:45,12:55,10,Signal Failure
+79115,Bhopal,Bhopal-Mumbai,2025-09-06,11:45,12:45,60,Technical Issue
+60367,Surat,Surat-Mumbai,2025-09-20,23:30,02:00,150,Weather
+37106,Hyderabad,Hyderabad-Trivandrum,2025-08-29,06:15,06:25,10,Signal Failure
+52809,Bhopal,Bhopal-Patna,2025-08-13,01:00,03:00,120,Crew Unavailability
+48148,Chennai,Chennai-Hyderabad,2025-07-09,03:15,06:15,180,Technical Issue
+45537,Patna,Patna-Chennai,2025-08-27,07:45,08:05,20,Signal Failure
+39766,Coimbatore,Coimbatore-Kolkata,2025-09-11,20:00,21:30,90,Track Maintenance
+19029,Coimbatore,Coimbatore-Chandigarh,2025-09-04,17:45,18:15,30,Signal Failure
+68571,Coimbatore,Coimbatore-Pune,2025-09-17,19:30,20:15,45,Track Maintenance
+81176,Bangalore,Bangalore-Chennai,2025-08-14,10:15,12:15,120,Track Maintenance
+81358,Hyderabad,Hyderabad-Chandigarh,2025-08-10,08:00,08:15,15,Signal Failure
+27120,Madurai,Madurai-Surat,2025-09-08,19:45,21:45,120,Weather
+55446,Trivandrum,Trivandrum-Lucknow,2025-08-04,22:15,00:15,120,Weather
+38098,Lucknow,Lucknow-Patna,2025-09-25,01:30,01:40,10,Technical Issue
+60465,Chennai,Chennai-Kolkata,2025-09-30,03:00,03:15,15,Crew Unavailability
+89724,Lucknow,Lucknow-Hyderabad,2025-09-27,19:15,21:45,150,Weather
+81525,Kolkata,Kolkata-Madurai,2025-08-02,13:45,16:45,180,Track Maintenance
+46439,Lucknow,Lucknow-Hyderabad,2025-08-08,04:15,05:00,45,Technical Issue
+54319,Chandigarh,Chandigarh-Bangalore,2025-08-27,14:00,14:00,0,On Time
+99229,Hyderabad,Hyderabad-Madurai,2025-09-22,05:30,06:00,30,Crew Unavailability
+93524,Lucknow,Lucknow-Jaipur,2025-08-11,10:45,10:45,0,On Time
+38561,Coimbatore,Coimbatore-Varanasi,2025-08-10,15:00,15:45,45,Track Maintenance
+45304,Nagpur,Nagpur-Chandigarh,2025-07-21,00:45,00:45,0,On Time
+93363,Chennai,Chennai-Hyderabad,2025-09-03,06:45,09:15,150,Track Maintenance
+34426,Mumbai,Mumbai-Surat,2025-07-29,10:15,10:20,5,Track Maintenance
+82300,Ahmedabad,Ahmedabad-Varanasi,2025-09-19,19:30,19:30,0,On Time
+76962,Madurai,Madurai-Chandigarh,2025-07-20,14:00,15:30,90,Signal Failure
+12450,Chandigarh,Chandigarh-Jaipur,2025-08-12,14:30,14:50,20,Track Maintenance
+70817,Mumbai,Mumbai-Pune,2025-09-21,18:45,18:45,0,On Time
+36140,Delhi,Delhi-Coimbatore,2025-07-30,02:45,03:15,30,Signal Failure
+65539,Bhopal,Bhopal-Patna,2025-09-22,18:45,19:05,20,Crew Unavailability
+81797,Patna,Patna-Goa,2025-09-13,17:00,18:00,60,Weather
+44427,Bhopal,Bhopal-Jaipur,2025-09-14,18:30,20:00,90,Weather
+76606,Mumbai,Mumbai-Pune,2025-07-26,10:45,11:00,15,Technical Issue
+56293,Jaipur,Jaipur-Ahmedabad,2025-09-26,15:45,16:15,30,Weather
+57711,Mumbai,Mumbai-Nagpur,2025-08-01,09:45,09:45,0,On Time
+62914,Surat,Surat-Varanasi,2025-07-16,11:15,11:20,5,Signal Failure
+25564,Varanasi,Varanasi-Lucknow,2025-08-20,10:15,10:15,0,On Time
+74450,Goa,Goa-Ahmedabad,2025-09-04,11:15,12:15,60,Technical Issue
+67454,Delhi,Delhi-Varanasi,2025-08-17,23:45,00:30,45,Signal Failure
+93736,Pune,Pune-Hyderabad,2025-07-09,23:45,00:05,20,Track Maintenance
+59151,Bhopal,Bhopal-Goa,2025-08-31,10:15,11:15,60,Operational Delay
+52569,Chennai,Chennai-Bhopal,2025-09-16,04:00,04:30,30,Track Maintenance
+32313,Coimbatore,Coimbatore-Jaipur,2025-08-21,17:30,17:40,10,Operational Delay
+39922,Madurai,Madurai-Delhi,2025-09-02,23:30,02:00,150,Weather
+39590,Kolkata,Kolkata-Surat,2025-07-27,01:15,01:45,30,Crew Unavailability
+25019,Surat,Surat-Coimbatore,2025-09-27,22:15,23:00,45,Operational Delay
+99072,Ahmedabad,Ahmedabad-Mumbai,2025-09-27,11:00,12:30,90,Track Maintenance
+60594,Bhopal,Bhopal-Patna,2025-07-04,14:45,15:05,20,Operational Delay
+68202,Kolkata,Kolkata-Goa,2025-08-22,03:00,03:10,10,Crew Unavailability
+33400,Madurai,Madurai-Chandigarh,2025-08-12,17:15,17:30,15,Technical Issue
+84466,Chennai,Chennai-Delhi,2025-09-09,19:15,19:45,30,Technical Issue
+42463,Pune,Pune-Hyderabad,2025-07-18,14:45,17:15,150,Operational Delay
+83080,Bangalore,Bangalore-Goa,2025-09-26,19:45,19:45,0,On Time
+19317,Bhopal,Bhopal-Nagpur,2025-09-17,08:15,08:35,20,Operational Delay
+59998,Madurai,Madurai-Bangalore,2025-08-25,19:00,21:00,120,Track Maintenance
+16656,Kolkata,Kolkata-Goa,2025-07-03,07:00,07:45,45,Operational Delay
+80578,Trivandrum,Trivandrum-Jaipur,2025-08-05,19:30,21:00,90,Track Maintenance
+30693,Madurai,Madurai-Hyderabad,2025-09-29,04:00,05:00,60,Track Maintenance
+87492,Lucknow,Lucknow-Pune,2025-09-05,01:30,02:00,30,Crew Unavailability
+34169,Mumbai,Mumbai-Jaipur,2025-08-14,13:30,14:30,60,Operational Delay
+56091,Varanasi,Varanasi-Chandigarh,2025-08-26,17:15,18:15,60,Technical Issue
+17313,Nagpur,Nagpur-Surat,2025-09-28,15:45,15:50,5,Weather
+93199,Mumbai,Mumbai-Ahmedabad,2025-09-08,13:45,14:30,45,Crew Unavailability
+22662,Ahmedabad,Ahmedabad-Varanasi,2025-07-30,18:00,20:00,120,Track Maintenance
+58616,Jaipur,Jaipur-Hyderabad,2025-09-11,16:15,16:35,20,Signal Failure
+55405,Jaipur,Jaipur-Nagpur,2025-09-10,21:15,21:20,5,Weather
+45422,Lucknow,Lucknow-Varanasi,2025-08-30,23:45,01:15,90,Track Maintenance
+34083,Varanasi,Varanasi-Pune,2025-08-06,05:00,05:20,20,Track Maintenance
+14660,Ahmedabad,Ahmedabad-Patna,2025-08-16,10:45,12:45,120,Technical Issue
+95092,Chennai,Chennai-Trivandrum,2025-08-25,02:30,02:50,20,Crew Unavailability
+89041,Goa,Goa-Coimbatore,2025-08-17,17:30,19:00,90,Operational Delay
+28648,Bhopal,Bhopal-Madurai,2025-08-15,20:00,20:05,5,Crew Unavailability
+37918,Ahmedabad,Ahmedabad-Pune,2025-08-29,09:45,10:30,45,Weather
+46450,Chandigarh,Chandigarh-Kolkata,2025-07-27,22:45,01:45,180,Crew Unavailability
+75085,Chandigarh,Chandigarh-Coimbatore,2025-08-31,14:15,16:45,150,Technical Issue
+24347,Bangalore,Bangalore-Varanasi,2025-08-07,10:30,12:30,120,Technical Issue
+55898,Nagpur,Nagpur-Surat,2025-09-25,15:30,18:30,180,Crew Unavailability
+50443,Lucknow,Lucknow-Delhi,2025-09-14,00:00,01:00,60,Weather
+20164,Lucknow,Lucknow-Pune,2025-08-13,00:15,02:15,120,Crew Unavailability
+71726,Chandigarh,Chandigarh-Jaipur,2025-07-12,14:30,16:00,90,Crew Unavailability
+46723,Ahmedabad,Ahmedabad-Jaipur,2025-08-29,02:00,05:00,180,Crew Unavailability
+97611,Mumbai,Mumbai-Trivandrum,2025-08-26,21:15,22:45,90,Signal Failure
+35123,Delhi,Delhi-Chandigarh,2025-08-13,12:30,12:50,20,Track Maintenance
+20267,Pune,Pune-Madurai,2025-07-20,08:00,10:30,150,Crew Unavailability
+21031,Madurai,Madurai-Bhopal,2025-08-11,17:00,17:45,45,Crew Unavailability
+75195,Bangalore,Bangalore-Surat,2025-07-25,22:30,22:50,20,Crew Unavailability
+32424,Bhopal,Bhopal-Mumbai,2025-08-18,14:00,17:00,180,Crew Unavailability
+12449,Chandigarh,Chandigarh-Jaipur,2025-07-02,09:45,11:45,120,Track Maintenance
+85714,Madurai,Madurai-Chennai,2025-08-14,01:30,01:45,15,Technical Issue
+28976,Surat,Surat-Mumbai,2025-09-09,02:00,03:00,60,Crew Unavailability
+33873,Coimbatore,Coimbatore-Bangalore,2025-09-15,18:45,18:55,10,Technical Issue
+53478,Trivandrum,Trivandrum-Pune,2025-07-29,14:15,17:15,180,Operational Delay
+30067,Surat,Surat-Chandigarh,2025-09-20,13:15,13:20,5,Track Maintenance
+13953,Mumbai,Mumbai-Chandigarh,2025-09-12,07:30,07:50,20,Weather
+45136,Madurai,Madurai-Lucknow,2025-09-06,11:30,11:35,5,Weather
+68398,Jaipur,Jaipur-Bhopal,2025-08-26,00:30,01:15,45,Operational Delay
+49629,Pune,Pune-Bangalore,2025-07-20,00:00,00:20,20,Crew Unavailability
+91021,Trivandrum,Trivandrum-Kolkata,2025-08-27,07:45,08:15,30,Crew Unavailability
+32512,Ahmedabad,Ahmedabad-Delhi,2025-09-16,13:30,14:00,30,Technical Issue
+73499,Surat,Surat-Lucknow,2025-08-22,19:00,20:30,90,Crew Unavailability
+37764,Ahmedabad,Ahmedabad-Patna,2025-07-08,19:00,21:30,150,Signal Failure
+15698,Bangalore,Bangalore-Nagpur,2025-09-10,22:45,23:45,60,Operational Delay
+44604,Chandigarh,Chandigarh-Surat,2025-07-21,00:15,03:15,180,Operational Delay
+85669,Varanasi,Varanasi-Mumbai,2025-08-15,21:15,22:00,45,Track Maintenance
+98982,Coimbatore,Coimbatore-Kolkata,2025-07-19,00:15,01:15,60,Technical Issue
+28153,Bangalore,Bangalore-Surat,2025-08-18,11:15,11:35,20,Weather
+35832,Surat,Surat-Ahmedabad,2025-08-29,20:45,20:50,5,Crew Unavailability
+64546,Patna,Patna-Mumbai,2025-07-28,17:30,20:00,150,Technical Issue
+73178,Nagpur,Nagpur-Mumbai,2025-07-09,19:15,19:15,0,On Time
+83474,Chandigarh,Chandigarh-Bhopal,2025-07-27,22:30,23:15,45,Operational Delay
+35885,Chandigarh,Chandigarh-Varanasi,2025-07-07,04:15,04:25,10,Track Maintenance
+83879,Mumbai,Mumbai-Kolkata,2025-09-07,17:15,18:00,45,Crew Unavailability
+38473,Bhopal,Bhopal-Nagpur,2025-07-05,18:30,21:30,180,Crew Unavailability
+89074,Bhopal,Bhopal-Kolkata,2025-07-29,03:15,05:45,150,Signal Failure
+27406,Delhi,Delhi-Hyderabad,2025-07-07,04:30,04:50,20,Weather
+18124,Coimbatore,Coimbatore-Goa,2025-08-13,21:00,21:10,10,Track Maintenance
+70711,Pune,Pune-Trivandrum,2025-08-15,23:30,23:40,10,Signal Failure
+72633,Bangalore,Bangalore-Surat,2025-08-26,18:15,18:15,0,On Time
+77856,Pune,Pune-Surat,2025-09-24,02:45,05:45,180,Weather
+93418,Hyderabad,Hyderabad-Nagpur,2025-09-05,19:45,19:55,10,Weather
+44001,Mumbai,Mumbai-Lucknow,2025-08-24,05:00,06:30,90,Weather
+94787,Kolkata,Kolkata-Mumbai,2025-07-14,05:30,06:30,60,Signal Failure
+88414,Pune,Pune-Bangalore,2025-07-09,09:45,09:45,0,On Time
+95165,Mumbai,Mumbai-Jaipur,2025-09-01,09:45,10:45,60,Track Maintenance
+65058,Coimbatore,Coimbatore-Bhopal,2025-09-06,13:30,13:50,20,Operational Delay
+60862,Pune,Pune-Chandigarh,2025-08-29,02:15,05:15,180,Signal Failure
+48853,Bangalore,Bangalore-Lucknow,2025-07-12,19:00,19:10,10,Track Maintenance
+19528,Varanasi,Varanasi-Nagpur,2025-09-20,12:45,12:55,10,Track Maintenance
+65078,Patna,Patna-Jaipur,2025-08-27,07:15,07:15,0,On Time
+20638,Surat,Surat-Bhopal,2025-09-01,02:30,02:30,0,On Time
+75428,Ahmedabad,Ahmedabad-Chennai,2025-07-29,23:45,00:15,30,Crew Unavailability
+70007,Trivandrum,Trivandrum-Kolkata,2025-09-24,19:00,19:45,45,Operational Delay
+35392,Patna,Patna-Chandigarh,2025-07-07,20:30,21:00,30,Signal Failure
+15177,Bangalore,Bangalore-Nagpur,2025-09-02,01:15,02:15,60,Weather
+51842,Nagpur,Nagpur-Kolkata,2025-08-27,09:30,10:15,45,Operational Delay
+55400,Coimbatore,Coimbatore-Ahmedabad,2025-09-20,09:45,10:00,15,Technical Issue
+70376,Nagpur,Nagpur-Trivandrum,2025-08-29,17:45,17:45,0,On Time
+41166,Kolkata,Kolkata-Bhopal,2025-08-03,17:45,19:45,120,Weather
+51815,Trivandrum,Trivandrum-Madurai,2025-07-26,17:45,17:50,5,Operational Delay
+55196,Hyderabad,Hyderabad-Jaipur,2025-09-29,18:00,21:00,180,Operational Delay
+63540,Patna,Patna-Goa,2025-07-23,00:45,02:15,90,Track Maintenance
+54034,Bhopal,Bhopal-Pune,2025-08-03,00:00,00:00,0,On Time
+86698,Chennai,Chennai-Patna,2025-07-02,03:45,06:45,180,Track Maintenance
+97413,Mumbai,Mumbai-Patna,2025-09-09,01:45,02:00,15,Technical Issue
+60830,Bhopal,Bhopal-Chandigarh,2025-09-24,08:30,08:50,20,Operational Delay
+76214,Jaipur,Jaipur-Chennai,2025-07-17,22:30,23:30,60,Weather
+86489,Lucknow,Lucknow-Trivandrum,2025-07-03,07:00,07:00,0,On Time
+22341,Varanasi,Varanasi-Surat,2025-09-13,12:00,12:20,20,Crew Unavailability
+32527,Madurai,Madurai-Jaipur,2025-09-26,20:30,23:00,150,Operational Delay
+63979,Trivandrum,Trivandrum-Delhi,2025-09-23,22:15,22:35,20,Operational Delay
+10131,Ahmedabad,Ahmedabad-Coimbatore,2025-08-08,01:00,01:30,30,Crew Unavailability
+79129,Chennai,Chennai-Coimbatore,2025-09-29,01:15,01:30,15,Crew Unavailability
+11841,Chandigarh,Chandigarh-Madurai,2025-09-26,23:00,23:20,20,Track Maintenance
+77853,Surat,Surat-Trivandrum,2025-07-27,01:45,03:45,120,Weather
+31425,Ahmedabad,Ahmedabad-Bangalore,2025-09-27,07:45,09:45,120,Weather
+51243,Coimbatore,Coimbatore-Jaipur,2025-08-21,03:30,04:00,30,Technical Issue
+28105,Bhopal,Bhopal-Surat,2025-07-22,18:30,18:30,0,On Time
+32468,Hyderabad,Hyderabad-Goa,2025-08-17,12:30,15:00,150,Operational Delay
+73037,Madurai,Madurai-Chennai,2025-08-07,10:15,10:35,20,Technical Issue
+93940,Madurai,Madurai-Jaipur,2025-07-04,07:15,10:15,180,Track Maintenance
+94336,Pune,Pune-Chandigarh,2025-07-19,21:45,22:30,45,Signal Failure
+61109,Bhopal,Bhopal-Chandigarh,2025-08-18,12:45,13:00,15,Technical Issue
+75516,Goa,Goa-Bhopal,2025-07-06,07:00,10:00,180,Operational Delay
+26242,Trivandrum,Trivandrum-Bangalore,2025-09-04,18:15,20:15,120,Technical Issue
+61336,Chandigarh,Chandigarh-Trivandrum,2025-08-29,15:30,15:45,15,Technical Issue
+48804,Jaipur,Jaipur-Mumbai,2025-09-19,10:00,10:30,30,Weather
+41340,Kolkata,Kolkata-Goa,2025-09-02,01:45,02:00,15,Technical Issue
+72526,Delhi,Delhi-Varanasi,2025-09-20,10:30,13:30,180,Crew Unavailability
+31933,Bangalore,Bangalore-Goa,2025-09-20,14:45,16:15,90,Crew Unavailability
+64529,Mumbai,Mumbai-Trivandrum,2025-08-28,05:45,05:55,10,Crew Unavailability
+27590,Lucknow,Lucknow-Trivandrum,2025-07-26,08:00,10:30,150,Track Maintenance
+57887,Nagpur,Nagpur-Surat,2025-07-14,09:45,12:45,180,Signal Failure
+92493,Jaipur,Jaipur-Coimbatore,2025-07-03,19:15,19:15,0,On Time
+24383,Lucknow,Lucknow-Nagpur,2025-09-16,22:00,00:00,120,Operational Delay
+88785,Mumbai,Mumbai-Ahmedabad,2025-07-18,12:45,15:15,150,Technical Issue
+50524,Patna,Patna-Mumbai,2025-07-08,02:15,05:15,180,Crew Unavailability
+86914,Chandigarh,Chandigarh-Chennai,2025-07-29,10:00,13:00,180,Operational Delay
+75686,Ahmedabad,Ahmedabad-Madurai,2025-09-03,19:45,20:30,45,Crew Unavailability
+12809,Hyderabad,Hyderabad-Surat,2025-08-24,02:45,04:45,120,Operational Delay
+18894,Hyderabad,Hyderabad-Madurai,2025-07-01,06:30,07:30,60,Track Maintenance
+51406,Patna,Patna-Jaipur,2025-07-26,18:45,21:45,180,Crew Unavailability
+51330,Chandigarh,Chandigarh-Bangalore,2025-08-06,08:45,11:45,180,Track Maintenance
+94534,Varanasi,Varanasi-Trivandrum,2025-09-04,13:45,13:45,0,On Time
+68743,Bhopal,Bhopal-Surat,2025-08-28,21:30,22:00,30,Track Maintenance
+78969,Patna,Patna-Bangalore,2025-07-15,03:45,05:45,120,Operational Delay
+99789,Varanasi,Varanasi-Lucknow,2025-09-11,19:45,19:55,10,Weather
+96764,Kolkata,Kolkata-Coimbatore,2025-07-05,14:30,15:30,60,Crew Unavailability
+32647,Patna,Patna-Bhopal,2025-09-17,09:45,10:00,15,Track Maintenance
+75356,Pune,Pune-Ahmedabad,2025-08-15,02:30,03:30,60,Crew Unavailability
+78152,Jaipur,Jaipur-Hyderabad,2025-08-01,22:15,22:35,20,Technical Issue
+87205,Bangalore,Bangalore-Chennai,2025-09-15,14:45,14:45,0,On Time
+42513,Chandigarh,Chandigarh-Pune,2025-08-23,08:30,08:50,20,Track Maintenance
+91209,Surat,Surat-Bangalore,2025-08-09,11:30,11:50,20,Operational Delay
+57130,Jaipur,Jaipur-Bangalore,2025-08-11,06:45,09:15,150,Signal Failure
+25647,Delhi,Delhi-Trivandrum,2025-08-05,03:15,03:25,10,Technical Issue
+82742,Kolkata,Kolkata-Chandigarh,2025-08-21,12:30,13:00,30,Signal Failure
+31242,Delhi,Delhi-Nagpur,2025-09-03,04:30,05:00,30,Operational Delay
+88261,Madurai,Madurai-Chandigarh,2025-07-02,18:45,20:15,90,Track Maintenance
+26097,Ahmedabad,Ahmedabad-Delhi,2025-08-11,18:45,21:45,180,Technical Issue
+41129,Coimbatore,Coimbatore-Chandigarh,2025-07-10,22:30,00:30,120,Crew Unavailability
+72597,Delhi,Delhi-Pune,2025-09-23,10:15,12:45,150,Signal Failure
+59215,Bhopal,Bhopal-Goa,2025-08-22,01:45,02:05,20,Technical Issue
+54861,Trivandrum,Trivandrum-Delhi,2025-08-05,07:00,10:00,180,Weather
+31007,Chennai,Chennai-Goa,2025-07-19,16:15,16:30,15,Operational Delay
+39256,Hyderabad,Hyderabad-Madurai,2025-09-06,00:00,00:15,15,Signal Failure
+18819,Lucknow,Lucknow-Bhopal,2025-08-07,22:30,00:00,90,Technical Issue
+83717,Delhi,Delhi-Bhopal,2025-08-05,06:00,07:30,90,Weather
+58748,Mumbai,Mumbai-Coimbatore,2025-09-17,23:45,00:45,60,Track Maintenance
+94318,Varanasi,Varanasi-Ahmedabad,2025-08-25,17:45,19:45,120,Technical Issue
+97244,Chandigarh,Chandigarh-Bangalore,2025-09-10,04:45,05:05,20,Signal Failure
+84226,Trivandrum,Trivandrum-Kolkata,2025-07-29,23:45,02:15,150,Signal Failure
+36912,Lucknow,Lucknow-Bangalore,2025-07-16,03:45,05:45,120,Weather
+99256,Bhopal,Bhopal-Madurai,2025-07-07,01:30,01:50,20,Track Maintenance
+31239,Trivandrum,Trivandrum-Chennai,2025-07-08,10:30,13:00,150,Signal Failure
+68023,Chennai,Chennai-Bhopal,2025-09-12,19:30,19:50,20,Weather
+46187,Madurai,Madurai-Varanasi,2025-07-08,05:45,06:00,15,Operational Delay
+19362,Mumbai,Mumbai-Chennai,2025-07-13,06:45,08:15,90,Track Maintenance
+29591,Nagpur,Nagpur-Pune,2025-08-27,07:30,09:30,120,Signal Failure
+73760,Hyderabad,Hyderabad-Jaipur,2025-08-09,08:00,08:15,15,Signal Failure
+46748,Goa,Goa-Nagpur,2025-09-10,01:45,04:45,180,Signal Failure
+99262,Lucknow,Lucknow-Chandigarh,2025-09-12,09:00,09:05,5,Technical Issue
+29464,Delhi,Delhi-Bangalore,2025-08-02,09:45,12:15,150,Signal Failure
+55557,Mumbai,Mumbai-Goa,2025-08-21,19:30,20:30,60,Weather
+78424,Ahmedabad,Ahmedabad-Goa,2025-09-22,01:15,01:15,0,On Time
+39768,Chennai,Chennai-Chandigarh,2025-09-13,20:45,21:05,20,Signal Failure
+72689,Patna,Patna-Trivandrum,2025-09-09,12:15,14:45,150,Crew Unavailability
+39724,Surat,Surat-Kolkata,2025-07-21,18:45,20:45,120,Weather
+89108,Kolkata,Kolkata-Ahmedabad,2025-09-08,11:00,11:30,30,Operational Delay
+31675,Delhi,Delhi-Chandigarh,2025-08-26,04:15,06:15,120,Operational Delay
+47903,Nagpur,Nagpur-Bangalore,2025-07-02,07:30,08:30,60,Operational Delay
+26378,Hyderabad,Hyderabad-Patna,2025-07-30,03:45,04:00,15,Signal Failure
+60629,Lucknow,Lucknow-Mumbai,2025-08-29,07:00,07:00,0,On Time
+29856,Bangalore,Bangalore-Delhi,2025-07-13,16:15,17:45,90,Crew Unavailability
+15533,Surat,Surat-Chennai,2025-07-15,22:30,22:50,20,Operational Delay
+53005,Ahmedabad,Ahmedabad-Kolkata,2025-08-13,02:15,04:45,150,Signal Failure
+93766,Chandigarh,Chandigarh-Pune,2025-08-27,21:15,22:15,60,Track Maintenance
+18853,Mumbai,Mumbai-Surat,2025-09-09,16:15,18:15,120,Signal Failure
+60202,Hyderabad,Hyderabad-Kolkata,2025-07-14,20:15,22:45,150,Weather
+77883,Ahmedabad,Ahmedabad-Nagpur,2025-09-08,03:30,06:00,150,Crew Unavailability
+82275,Ahmedabad,Ahmedabad-Bhopal,2025-09-14,05:00,05:15,15,Weather
+75757,Patna,Patna-Varanasi,2025-07-10,11:00,11:45,45,Track Maintenance
+33412,Hyderabad,Hyderabad-Lucknow,2025-09-10,14:30,15:15,45,Crew Unavailability
+60393,Hyderabad,Hyderabad-Ahmedabad,2025-07-22,15:45,15:45,0,On Time
+57473,Trivandrum,Trivandrum-Hyderabad,2025-08-25,01:45,04:45,180,Technical Issue
+24933,Kolkata,Kolkata-Delhi,2025-09-16,15:45,17:15,90,Operational Delay
+13708,Pune,Pune-Trivandrum,2025-07-30,20:00,20:15,15,Technical Issue
+23079,Kolkata,Kolkata-Coimbatore,2025-09-09,21:30,23:00,90,Signal Failure
+94404,Jaipur,Jaipur-Coimbatore,2025-07-02,06:30,07:00,30,Crew Unavailability
+59919,Surat,Surat-Trivandrum,2025-07-13,02:45,05:45,180,Weather
+63578,Delhi,Delhi-Lucknow,2025-08-04,19:00,19:20,20,Weather
+27296,Bangalore,Bangalore-Madurai,2025-07-16,15:15,17:45,150,Operational Delay
+98927,Bangalore,Bangalore-Madurai,2025-09-21,18:00,21:00,180,Weather
+54628,Madurai,Madurai-Chandigarh,2025-07-08,00:00,03:00,180,Signal Failure
+75981,Jaipur,Jaipur-Varanasi,2025-08-16,23:15,00:00,45,Signal Failure
+42533,Chennai,Chennai-Chandigarh,2025-08-02,10:00,10:45,45,Technical Issue
+92923,Jaipur,Jaipur-Surat,2025-07-07,10:45,11:05,20,Operational Delay
+24569,Delhi,Delhi-Bhopal,2025-09-16,03:15,03:30,15,Weather
+91921,Goa,Goa-Varanasi,2025-09-11,05:15,06:45,90,Operational Delay
+36859,Madurai,Madurai-Jaipur,2025-09-22,03:30,06:30,180,Crew Unavailability
+57422,Goa,Goa-Coimbatore,2025-07-20,13:30,14:30,60,Technical Issue
+27762,Chennai,Chennai-Goa,2025-09-25,08:45,11:45,180,Crew Unavailability
+54171,Madurai,Madurai-Delhi,2025-08-20,08:45,09:15,30,Crew Unavailability
+13155,Bhopal,Bhopal-Delhi,2025-08-27,17:00,18:00,60,Track Maintenance
+65186,Varanasi,Varanasi-Bangalore,2025-08-14,22:45,00:45,120,Operational Delay
+57101,Patna,Patna-Varanasi,2025-08-26,04:45,05:30,45,Crew Unavailability
+86469,Mumbai,Mumbai-Chennai,2025-09-25,05:45,05:50,5,Technical Issue
+19036,Chennai,Chennai-Varanasi,2025-07-30,21:45,00:15,150,Weather
+80873,Varanasi,Varanasi-Mumbai,2025-07-06,13:45,13:50,5,Weather
+93549,Nagpur,Nagpur-Trivandrum,2025-07-04,00:15,01:00,45,Crew Unavailability
+29002,Madurai,Madurai-Patna,2025-08-06,08:45,11:15,150,Track Maintenance
+65265,Patna,Patna-Ahmedabad,2025-08-15,06:30,06:30,0,On Time
+29563,Bhopal,Bhopal-Patna,2025-09-03,07:45,08:05,20,Track Maintenance
+22656,Varanasi,Varanasi-Ahmedabad,2025-08-30,06:00,09:00,180,Operational Delay
+49067,Chandigarh,Chandigarh-Varanasi,2025-07-27,06:00,06:00,0,On Time
+84802,Goa,Goa-Hyderabad,2025-07-24,04:15,04:30,15,Track Maintenance
+77565,Surat,Surat-Coimbatore,2025-09-10,11:00,11:30,30,Operational Delay
+10260,Varanasi,Varanasi-Chennai,2025-08-31,14:00,14:05,5,Operational Delay
+45349,Goa,Goa-Jaipur,2025-07-29,11:45,12:30,45,Operational Delay
+59352,Pune,Pune-Trivandrum,2025-09-27,22:30,01:30,180,Technical Issue
+94418,Lucknow,Lucknow-Kolkata,2025-07-27,17:30,19:00,90,Signal Failure
+45365,Ahmedabad,Ahmedabad-Coimbatore,2025-08-02,02:45,03:00,15,Crew Unavailability
+72834,Nagpur,Nagpur-Bhopal,2025-09-28,16:45,16:45,0,On Time
+88810,Patna,Patna-Nagpur,2025-07-28,10:15,10:15,0,On Time
+50717,Goa,Goa-Delhi,2025-07-02,06:15,07:45,90,Signal Failure
+42898,Kolkata,Kolkata-Coimbatore,2025-08-22,02:30,03:15,45,Technical Issue
+74343,Mumbai,Mumbai-Nagpur,2025-07-08,05:00,05:00,0,On Time
+61283,Trivandrum,Trivandrum-Bhopal,2025-09-24,22:15,00:15,120,Technical Issue
+24924,Goa,Goa-Lucknow,2025-07-24,14:30,16:00,90,Technical Issue
+22745,Lucknow,Lucknow-Kolkata,2025-07-29,04:00,04:05,5,Weather
+85411,Chennai,Chennai-Hyderabad,2025-08-03,16:15,16:30,15,Signal Failure
+73851,Lucknow,Lucknow-Delhi,2025-08-29,19:30,20:15,45,Track Maintenance
+50793,Mumbai,Mumbai-Delhi,2025-07-02,22:30,01:30,180,Weather
+71091,Varanasi,Varanasi-Lucknow,2025-07-31,12:30,12:40,10,Technical Issue
+87168,Kolkata,Kolkata-Hyderabad,2025-08-13,11:15,12:00,45,Signal Failure
+10393,Trivandrum,Trivandrum-Ahmedabad,2025-08-01,20:00,22:30,150,Technical Issue
+48150,Hyderabad,Hyderabad-Mumbai,2025-09-10,00:45,01:15,30,Crew Unavailability
+87215,Lucknow,Lucknow-Surat,2025-09-22,00:30,03:00,150,Signal Failure
+37152,Kolkata,Kolkata-Pune,2025-08-03,13:30,16:00,150,Operational Delay
+95308,Varanasi,Varanasi-Chennai,2025-07-23,03:00,03:00,0,On Time
+27015,Surat,Surat-Delhi,2025-09-10,04:30,05:30,60,Crew Unavailability
+30588,Surat,Surat-Pune,2025-09-10,12:15,13:00,45,Track Maintenance
+81150,Pune,Pune-Chandigarh,2025-09-10,05:45,08:45,180,Technical Issue
+28417,Chandigarh,Chandigarh-Trivandrum,2025-07-16,14:00,14:15,15,Technical Issue
+10980,Ahmedabad,Ahmedabad-Patna,2025-09-01,14:00,14:00,0,On Time
+84999,Mumbai,Mumbai-Chandigarh,2025-09-24,00:45,01:15,30,Technical Issue
+85417,Varanasi,Varanasi-Pune,2025-07-23,01:15,01:15,0,On Time
+44166,Lucknow,Lucknow-Hyderabad,2025-09-11,14:00,14:30,30,Signal Failure
+27596,Ahmedabad,Ahmedabad-Surat,2025-08-05,11:30,12:15,45,Signal Failure
+92142,Bangalore,Bangalore-Goa,2025-09-01,03:00,03:10,10,Operational Delay
+95254,Trivandrum,Trivandrum-Delhi,2025-08-22,13:45,14:15,30,Weather
+19326,Bhopal,Bhopal-Goa,2025-07-25,00:00,00:10,10,Operational Delay
+69189,Delhi,Delhi-Lucknow,2025-07-09,18:45,20:15,90,Crew Unavailability
+45850,Goa,Goa-Trivandrum,2025-07-16,05:45,08:45,180,Signal Failure
+93682,Delhi,Delhi-Jaipur,2025-07-26,20:30,22:30,120,Crew Unavailability
+77933,Patna,Patna-Ahmedabad,2025-08-14,18:30,19:00,30,Track Maintenance
+66392,Lucknow,Lucknow-Pune,2025-09-30,02:30,02:45,15,Weather
+90110,Kolkata,Kolkata-Delhi,2025-08-20,22:45,22:55,10,Track Maintenance
+31073,Mumbai,Mumbai-Ahmedabad,2025-08-25,08:15,08:45,30,Weather
+52068,Hyderabad,Hyderabad-Surat,2025-09-17,09:45,11:15,90,Signal Failure
+16755,Pune,Pune-Kolkata,2025-07-25,05:45,07:15,90,Weather
+86536,Jaipur,Jaipur-Bangalore,2025-09-04,03:30,03:30,0,On Time
+61960,Trivandrum,Trivandrum-Coimbatore,2025-09-25,15:15,15:30,15,Crew Unavailability
+40769,Pune,Pune-Bangalore,2025-09-02,01:00,02:00,60,Weather
+73098,Varanasi,Varanasi-Patna,2025-08-17,06:00,09:00,180,Signal Failure
+34624,Coimbatore,Coimbatore-Lucknow,2025-08-30,04:00,04:05,5,Technical Issue
+62948,Patna,Patna-Surat,2025-08-04,11:30,11:30,0,On Time
+67853,Bangalore,Bangalore-Delhi,2025-07-04,19:30,19:50,20,Crew Unavailability
+24694,Bangalore,Bangalore-Bhopal,2025-07-31,08:00,08:00,0,On Time
+42866,Kolkata,Kolkata-Chandigarh,2025-07-08,17:15,17:35,20,Technical Issue
+64213,Bhopal,Bhopal-Hyderabad,2025-09-20,14:30,17:00,150,Track Maintenance
+60642,Hyderabad,Hyderabad-Delhi,2025-07-04,06:30,08:30,120,Operational Delay
+50887,Pune,Pune-Goa,2025-09-25,11:15,13:45,150,Technical Issue
+83346,Chandigarh,Chandigarh-Madurai,2025-07-19,23:00,00:30,90,Track Maintenance
+93970,Chennai,Chennai-Hyderabad,2025-08-11,12:30,15:00,150,Signal Failure
+94594,Hyderabad,Hyderabad-Kolkata,2025-08-07,00:15,02:15,120,Track Maintenance
+81171,Hyderabad,Hyderabad-Ahmedabad,2025-07-19,22:15,23:45,90,Crew Unavailability
+29014,Delhi,Delhi-Hyderabad,2025-08-07,18:45,21:45,180,Signal Failure
+43645,Trivandrum,Trivandrum-Chandigarh,2025-08-16,08:30,08:45,15,Signal Failure
+23464,Bhopal,Bhopal-Patna,2025-08-08,17:15,20:15,180,Weather
+59781,Madurai,Madurai-Coimbatore,2025-07-21,02:30,02:50,20,Crew Unavailability
+47530,Hyderabad,Hyderabad-Surat,2025-08-20,02:45,03:05,20,Signal Failure
+90334,Chennai,Chennai-Pune,2025-08-23,13:15,15:45,150,Weather
+80641,Patna,Patna-Delhi,2025-09-21,05:45,08:45,180,Crew Unavailability
+23495,Bhopal,Bhopal-Patna,2025-07-20,20:45,21:30,45,Technical Issue
+22640,Jaipur,Jaipur-Kolkata,2025-07-21,02:45,05:45,180,Operational Delay
+81392,Nagpur,Nagpur-Bhopal,2025-09-26,12:00,12:20,20,Technical Issue
+87201,Chennai,Chennai-Lucknow,2025-08-26,18:15,18:15,0,On Time
+76084,Varanasi,Varanasi-Trivandrum,2025-08-02,19:45,22:45,180,Signal Failure
+95909,Madurai,Madurai-Mumbai,2025-09-07,07:45,08:30,45,Track Maintenance
+58087,Delhi,Delhi-Bangalore,2025-09-11,04:30,04:45,15,Signal Failure
+21264,Jaipur,Jaipur-Surat,2025-07-01,17:30,19:00,90,Signal Failure
+32262,Mumbai,Mumbai-Lucknow,2025-08-31,22:30,22:30,0,On Time
+13186,Pune,Pune-Varanasi,2025-08-02,04:15,06:15,120,Technical Issue
+26220,Goa,Goa-Bangalore,2025-09-09,17:15,19:45,150,Track Maintenance
+93152,Ahmedabad,Ahmedabad-Madurai,2025-08-07,04:30,04:35,5,Signal Failure
+45893,Delhi,Delhi-Lucknow,2025-07-03,00:00,00:20,20,Technical Issue
+37204,Bhopal,Bhopal-Hyderabad,2025-08-12,14:00,16:30,150,Operational Delay
+84551,Bhopal,Bhopal-Madurai,2025-07-19,14:45,17:15,150,Track Maintenance
+42899,Bangalore,Bangalore-Varanasi,2025-08-03,19:30,19:30,0,On Time
+24504,Madurai,Madurai-Kolkata,2025-08-25,01:00,01:45,45,Track Maintenance
+41244,Nagpur,Nagpur-Ahmedabad,2025-09-18,08:30,09:30,60,Track Maintenance
+26179,Jaipur,Jaipur-Lucknow,2025-09-08,18:15,20:15,120,Technical Issue
+85903,Hyderabad,Hyderabad-Delhi,2025-09-09,11:15,14:15,180,Track Maintenance
+12308,Ahmedabad,Ahmedabad-Trivandrum,2025-09-19,03:00,06:00,180,Track Maintenance
+15956,Kolkata,Kolkata-Bhopal,2025-09-10,20:00,23:00,180,Technical Issue
+48692,Lucknow,Lucknow-Surat,2025-07-21,19:00,19:05,5,Track Maintenance
+43329,Chandigarh,Chandigarh-Kolkata,2025-09-12,01:45,02:15,30,Signal Failure
+64358,Lucknow,Lucknow-Coimbatore,2025-09-30,23:15,00:45,90,Signal Failure
+18131,Goa,Goa-Nagpur,2025-07-07,18:45,19:15,30,Signal Failure
+98319,Bangalore,Bangalore-Madurai,2025-07-13,16:15,16:35,20,Technical Issue
+72660,Mumbai,Mumbai-Chennai,2025-09-26,09:00,10:00,60,Weather
+94864,Patna,Patna-Jaipur,2025-08-22,03:30,06:30,180,Signal Failure
+37022,Varanasi,Varanasi-Chennai,2025-07-18,03:00,03:15,15,Weather
+80673,Mumbai,Mumbai-Delhi,2025-09-23,00:30,00:40,10,Signal Failure
+49203,Delhi,Delhi-Lucknow,2025-08-29,03:15,03:35,20,Operational Delay
+10046,Trivandrum,Trivandrum-Varanasi,2025-08-05,21:45,23:45,120,Track Maintenance
+54323,Surat,Surat-Hyderabad,2025-09-18,10:00,11:00,60,Weather
+15038,Nagpur,Nagpur-Varanasi,2025-07-24,15:15,15:30,15,Track Maintenance
+54261,Varanasi,Varanasi-Trivandrum,2025-09-17,02:30,02:50,20,Operational Delay
+71058,Trivandrum,Trivandrum-Surat,2025-09-16,23:45,02:45,180,Technical Issue
+10683,Hyderabad,Hyderabad-Bangalore,2025-07-24,11:45,14:45,180,Technical Issue
+83081,Kolkata,Kolkata-Hyderabad,2025-07-18,06:15,09:15,180,Operational Delay
+60361,Madurai,Madurai-Lucknow,2025-08-20,04:30,04:45,15,Technical Issue
+65564,Bhopal,Bhopal-Patna,2025-07-13,03:15,03:45,30,Signal Failure
+86848,Lucknow,Lucknow-Mumbai,2025-08-16,13:45,15:15,90,Track Maintenance
+33847,Kolkata,Kolkata-Delhi,2025-07-12,13:15,14:00,45,Crew Unavailability
+85048,Madurai,Madurai-Varanasi,2025-08-30,00:15,02:15,120,Track Maintenance
+90472,Mumbai,Mumbai-Hyderabad,2025-09-30,10:30,12:30,120,Signal Failure
+10564,Pune,Pune-Trivandrum,2025-09-05,05:45,05:50,5,Technical Issue
+21589,Pune,Pune-Patna,2025-07-25,07:30,08:30,60,Signal Failure
+77696,Chandigarh,Chandigarh-Lucknow,2025-08-15,21:00,22:00,60,Weather
+97698,Chandigarh,Chandigarh-Delhi,2025-08-15,17:30,18:15,45,Crew Unavailability
+27142,Trivandrum,Trivandrum-Varanasi,2025-09-25,16:45,17:15,30,Track Maintenance
+52628,Madurai,Madurai-Patna,2025-08-24,09:15,11:15,120,Technical Issue
+86339,Madurai,Madurai-Chandigarh,2025-07-21,08:15,09:00,45,Operational Delay
+59912,Chennai,Chennai-Patna,2025-08-12,18:15,19:15,60,Signal Failure
+72533,Ahmedabad,Ahmedabad-Hyderabad,2025-08-26,18:30,18:50,20,Crew Unavailability
+50156,Chandigarh,Chandigarh-Mumbai,2025-07-13,06:15,06:45,30,Technical Issue
+42348,Chandigarh,Chandigarh-Coimbatore,2025-09-07,09:45,10:15,30,Crew Unavailability
+62401,Chandigarh,Chandigarh-Goa,2025-09-22,04:00,06:00,120,Track Maintenance
+83159,Trivandrum,Trivandrum-Jaipur,2025-08-06,08:00,11:00,180,Weather
+64960,Mumbai,Mumbai-Pune,2025-09-05,23:30,02:00,150,Technical Issue
+50252,Bhopal,Bhopal-Chandigarh,2025-08-28,14:30,15:15,45,Track Maintenance
+45403,Kolkata,Kolkata-Varanasi,2025-09-07,16:30,16:35,5,Technical Issue
+78629,Goa,Goa-Bangalore,2025-07-06,10:45,12:15,90,Signal Failure
+14116,Bhopal,Bhopal-Delhi,2025-08-02,07:00,07:45,45,Track Maintenance
+14851,Coimbatore,Coimbatore-Nagpur,2025-09-02,05:15,07:45,150,Technical Issue
+79588,Varanasi,Varanasi-Surat,2025-07-17,02:15,02:45,30,Weather
+91534,Bhopal,Bhopal-Kolkata,2025-09-04,00:15,01:00,45,Technical Issue
+21104,Coimbatore,Coimbatore-Ahmedabad,2025-07-02,06:00,08:30,150,Weather
+82828,Bangalore,Bangalore-Bhopal,2025-09-19,00:00,02:00,120,Crew Unavailability
+96049,Jaipur,Jaipur-Patna,2025-07-02,23:45,02:15,150,Signal Failure
+69720,Pune,Pune-Jaipur,2025-08-01,16:15,16:35,20,Signal Failure
+30928,Lucknow,Lucknow-Coimbatore,2025-08-02,01:30,03:00,90,Track Maintenance
+50539,Kolkata,Kolkata-Chandigarh,2025-08-10,09:30,09:35,5,Track Maintenance
+37786,Delhi,Delhi-Surat,2025-08-06,04:45,07:45,180,Track Maintenance
+61236,Bangalore,Bangalore-Goa,2025-08-01,06:15,06:25,10,Signal Failure
+48491,Trivandrum,Trivandrum-Madurai,2025-09-17,06:30,08:00,90,Track Maintenance
+53364,Delhi,Delhi-Patna,2025-07-06,11:30,11:40,10,Crew Unavailability
+75747,Bangalore,Bangalore-Trivandrum,2025-09-17,12:30,14:30,120,Signal Failure
+10449,Kolkata,Kolkata-Ahmedabad,2025-09-25,22:30,22:35,5,Crew Unavailability
+65568,Bangalore,Bangalore-Chennai,2025-08-25,12:30,14:00,90,Operational Delay
+71907,Delhi,Delhi-Coimbatore,2025-09-16,11:15,12:00,45,Weather
+54411,Bhopal,Bhopal-Mumbai,2025-09-09,12:00,14:00,120,Operational Delay
+91164,Nagpur,Nagpur-Varanasi,2025-09-16,10:00,13:00,180,Track Maintenance
+94568,Varanasi,Varanasi-Bangalore,2025-08-31,12:45,15:15,150,Technical Issue
+96232,Surat,Surat-Hyderabad,2025-08-27,00:00,00:20,20,Technical Issue
+37494,Delhi,Delhi-Pune,2025-08-12,12:30,14:00,90,Track Maintenance
+92962,Mumbai,Mumbai-Coimbatore,2025-08-06,01:00,02:30,90,Weather
+41387,Pune,Pune-Nagpur,2025-09-02,00:00,00:20,20,Crew Unavailability
+89857,Delhi,Delhi-Ahmedabad,2025-08-07,13:45,14:30,45,Operational Delay
+98575,Goa,Goa-Bhopal,2025-08-13,23:15,23:30,15,Technical Issue
+89091,Chennai,Chennai-Hyderabad,2025-07-30,12:30,12:30,0,On Time
+95704,Chandigarh,Chandigarh-Coimbatore,2025-07-16,06:30,06:35,5,Operational Delay
+49667,Bangalore,Bangalore-Chennai,2025-08-30,17:15,17:35,20,Operational Delay
+58246,Madurai,Madurai-Lucknow,2025-08-06,11:15,11:20,5,Track Maintenance
+65441,Nagpur,Nagpur-Ahmedabad,2025-09-05,11:45,12:45,60,Signal Failure
+93700,Bangalore,Bangalore-Madurai,2025-07-20,01:30,02:30,60,Track Maintenance
+12751,Jaipur,Jaipur-Kolkata,2025-08-29,07:00,07:10,10,Technical Issue
+84111,Trivandrum,Trivandrum-Nagpur,2025-08-05,01:15,02:45,90,Crew Unavailability
+88168,Madurai,Madurai-Lucknow,2025-07-25,21:00,21:15,15,Signal Failure
+13044,Nagpur,Nagpur-Bhopal,2025-09-09,16:30,16:50,20,Technical Issue
+28682,Mumbai,Mumbai-Goa,2025-08-27,01:45,02:15,30,Crew Unavailability
+30881,Bangalore,Bangalore-Ahmedabad,2025-09-26,03:00,03:10,10,Technical Issue
+81756,Chandigarh,Chandigarh-Jaipur,2025-07-14,09:45,10:15,30,Crew Unavailability
+64735,Hyderabad,Hyderabad-Lucknow,2025-08-07,08:30,09:30,60,Track Maintenance
+91329,Varanasi,Varanasi-Patna,2025-08-20,02:30,03:15,45,Weather
+98476,Kolkata,Kolkata-Goa,2025-07-13,23:15,23:15,0,On Time
+75296,Trivandrum,Trivandrum-Madurai,2025-08-16,07:00,07:05,5,Crew Unavailability
+37845,Bangalore,Bangalore-Kolkata,2025-07-22,07:00,07:30,30,Track Maintenance
+92180,Lucknow,Lucknow-Trivandrum,2025-08-23,09:15,11:15,120,Operational Delay
+14689,Coimbatore,Coimbatore-Lucknow,2025-07-02,22:30,23:00,30,Crew Unavailability
+59831,Jaipur,Jaipur-Coimbatore,2025-07-30,15:00,18:00,180,Weather
+34448,Chennai,Chennai-Kolkata,2025-09-17,00:45,02:15,90,Crew Unavailability
+42087,Delhi,Delhi-Varanasi,2025-08-07,19:30,21:30,120,Weather
+69375,Trivandrum,Trivandrum-Lucknow,2025-07-21,23:00,23:05,5,Crew Unavailability
+53893,Mumbai,Mumbai-Surat,2025-08-26,01:15,01:30,15,Weather
+78133,Coimbatore,Coimbatore-Trivandrum,2025-09-19,07:00,07:05,5,Technical Issue
+80943,Bangalore,Bangalore-Chennai,2025-09-29,23:45,02:15,150,Technical Issue
+10066,Madurai,Madurai-Delhi,2025-07-26,15:45,16:00,15,Weather
+53223,Hyderabad,Hyderabad-Delhi,2025-07-06,05:15,05:30,15,Track Maintenance
+22955,Kolkata,Kolkata-Ahmedabad,2025-09-27,02:30,03:15,45,Signal Failure
+63379,Patna,Patna-Nagpur,2025-08-08,02:00,02:05,5,Track Maintenance
+25698,Jaipur,Jaipur-Ahmedabad,2025-07-03,10:45,11:15,30,Operational Delay
+55804,Hyderabad,Hyderabad-Coimbatore,2025-09-30,06:15,06:20,5,Signal Failure
+80048,Jaipur,Jaipur-Trivandrum,2025-07-23,01:45,01:45,0,On Time
+32572,Bhopal,Bhopal-Delhi,2025-09-26,19:30,21:30,120,Track Maintenance
+10403,Patna,Patna-Lucknow,2025-07-08,12:45,14:45,120,Track Maintenance
+62640,Bhopal,Bhopal-Chennai,2025-09-13,20:15,22:45,150,Track Maintenance
+24988,Chennai,Chennai-Lucknow,2025-08-30,02:45,03:30,45,Crew Unavailability
+61325,Mumbai,Mumbai-Delhi,2025-07-09,21:15,21:30,15,Track Maintenance
+37038,Madurai,Madurai-Jaipur,2025-08-10,18:45,20:45,120,Signal Failure
+16119,Kolkata,Kolkata-Surat,2025-08-30,21:00,21:30,30,Weather
+24688,Kolkata,Kolkata-Madurai,2025-09-12,20:15,20:15,0,On Time
+50636,Delhi,Delhi-Madurai,2025-07-12,09:00,09:15,15,Signal Failure
+23537,Chandigarh,Chandigarh-Bhopal,2025-08-11,00:00,00:15,15,Crew Unavailability
+65119,Kolkata,Kolkata-Mumbai,2025-09-19,02:00,02:05,5,Track Maintenance
+23595,Chennai,Chennai-Hyderabad,2025-08-28,13:30,16:30,180,Weather
+50558,Delhi,Delhi-Madurai,2025-09-18,19:00,19:10,10,Track Maintenance
+76943,Patna,Patna-Ahmedabad,2025-09-19,16:30,19:00,150,Signal Failure
+66267,Surat,Surat-Kolkata,2025-08-12,03:00,04:30,90,Operational Delay
+92836,Trivandrum,Trivandrum-Jaipur,2025-08-29,10:00,10:30,30,Technical Issue
+98430,Nagpur,Nagpur-Ahmedabad,2025-07-15,17:15,18:15,60,Track Maintenance
+85333,Hyderabad,Hyderabad-Pune,2025-09-17,18:15,18:45,30,Operational Delay
+28521,Coimbatore,Coimbatore-Varanasi,2025-09-23,07:45,07:50,5,Operational Delay
+45480,Mumbai,Mumbai-Chandigarh,2025-09-21,00:00,03:00,180,Track Maintenance
+79846,Chennai,Chennai-Jaipur,2025-07-29,12:30,12:40,10,Signal Failure
+56913,Hyderabad,Hyderabad-Delhi,2025-09-29,07:00,09:00,120,Track Maintenance
+42442,Trivandrum,Trivandrum-Madurai,2025-07-29,23:45,00:05,20,Weather
+42076,Madurai,Madurai-Mumbai,2025-08-19,03:45,05:15,90,Technical Issue
+19225,Goa,Goa-Mumbai,2025-07-25,10:00,10:45,45,Track Maintenance
+70615,Kolkata,Kolkata-Bangalore,2025-09-13,06:30,06:50,20,Weather
+17464,Nagpur,Nagpur-Goa,2025-09-15,04:30,04:35,5,Weather
+48032,Chennai,Chennai-Goa,2025-08-05,05:00,08:00,180,Track Maintenance
+38876,Coimbatore,Coimbatore-Mumbai,2025-07-04,13:00,16:00,180,Crew Unavailability
+53130,Mumbai,Mumbai-Varanasi,2025-09-02,08:15,08:35,20,Operational Delay
+71333,Nagpur,Nagpur-Varanasi,2025-08-01,07:15,08:00,45,Track Maintenance
+28818,Madurai,Madurai-Delhi,2025-09-30,01:30,02:00,30,Operational Delay
+36981,Chennai,Chennai-Pune,2025-08-18,07:30,08:30,60,Track Maintenance
+91300,Nagpur,Nagpur-Madurai,2025-07-08,14:30,14:35,5,Technical Issue
